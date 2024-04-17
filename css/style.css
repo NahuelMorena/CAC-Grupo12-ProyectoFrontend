@@ -1,3 +1,10 @@
 /*
 Estilos globales para todo el sitio webs.
 */
+main {
+    margin-top: 80px;
+}
+
+body {
+    background-color: #f3ebeb;
+}
