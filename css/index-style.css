@@ -8,3 +8,32 @@ header{
 body {
     background-color: #B8D5BA;
 }
+
+.container {
+    display: flex;
+}
+
+.description {
+    flex: 1;
+}
+
+.images {
+    flex: 1;
+}
+
+.card {
+    padding: 20px; 
+    margin-bottom: 20px;
+}
+
+.btn {
+    background-color: #484a4b; /* Color de fondo del botón */
+}
+
+.btn:hover {
+    background-color: #909294; /* Cambia el color de fondo al pasar el mouse sobre el botón */
+}
+
+.btn:active {
+    background-color: #606263; /* Cambia el color de fondo cuando se hace clic en el botón */
+}
