@@ -1,6 +1,10 @@
 /*
 Estilos globales para todo el sitio webs.
 */
+*{
+    padding: 0;
+    margin: 0;
+}
 header{
     text-align: left;
     color: #31241E;
@@ -30,3 +34,4 @@ body {
 .btn:active {
     background-color: #3d3e3f; /* Cambia el color de fondo cuando se hace clic en el botón */
 }
+
