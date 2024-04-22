@@ -14,3 +14,21 @@ main {
 body {
     background-color: #f3ebeb;
 }
+
+.btn {
+    font-size: 16px; /* Tamaño de fuente mayor */
+    text-transform: uppercase; /* Letras en mayúscula */
+    border-radius: 20px; /* Bordeado circular */
+    padding: 10px 20px; /* Espacio interno del botón */
+    border: none; /* Elimina el borde */
+    background-color: #b5b7b9; /* Color de fondo del botón */
+    color: #fff; /* Color del texto */
+}
+
+.btn:hover {
+    background-color: #909294; /* Cambia el color de fondo al pasar el mouse sobre el botón */
+}
+
+.btn:active {
+    background-color: #3d3e3f; /* Cambia el color de fondo cuando se hace clic en el botón */
+}
