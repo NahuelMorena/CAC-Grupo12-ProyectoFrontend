@@ -42,8 +42,9 @@
 }
 
 .nav-menu-link:hover, .nav-menu-link:active {
-    background-color: #034574;
+    background-color: rgba(0, 0, 0, 0.05);
     transition: 0.5s;
+    font-size: 1.2em;
 }
 
 .active {
