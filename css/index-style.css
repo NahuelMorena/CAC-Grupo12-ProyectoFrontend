@@ -7,10 +7,26 @@ header{
 
 body {
     background-color: #B8D5BA;
+    margin: 0;
+    padding: 0;
+    background-image: url(../img/Studio_Ghibli_logo.svg.png);
+    background-position: 80% 160%;
+    background-repeat: no-repeat;
 }
 
-.container {
+.title {
+    font-size: large;
+    position: absolute;
+    top: 40%;
+    left: 5%;
+    transform: translateX(-50px);
+    max-width: 400px;
+}
+
+.containerSecundary {
     display: flex;
+    margin-top: 30%;
+    background-color: #B8D5BA;
 }
 
 .description {
@@ -23,7 +39,9 @@ body {
 
 .card {
     padding: 20px; 
+    max-width: 400px;
     margin-bottom: 20px;
+    margin-left: 10%;
 }
 
 .btn {
