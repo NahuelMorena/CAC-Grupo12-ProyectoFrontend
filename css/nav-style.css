@@ -5,6 +5,10 @@
     align-items: center;
     border-bottom: 1px solid rgba(0, 0, 0, 0.3);
 }
+.logo-img {
+    width: 50px;
+    height: 50px;
+}
 
 .nav {
     display: flex;
