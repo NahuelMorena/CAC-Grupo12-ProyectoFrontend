@@ -35,3 +35,7 @@ body {
     background-color: #3d3e3f; /* Cambia el color de fondo cuando se hace clic en el botón */
 }
 
+.imagen-pelicula{
+    height: 500px;
+    width: 600px;
+}
