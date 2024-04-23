@@ -3,12 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Recipe book</title>
+    <title>Recetario</title>
     <link rel="icon" href="img/icono.ico" type="image/png">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/nav-style.css">
-    <link rel="stylesheet" href="./breakfast.html">
+    <link rel="stylesheet" href="./Recetas/breakfast.html">
+    <link rel="stylesheet" href="./Recetas/bento.html">
+    <link rel="stylesheet" href="./css/recipe_book.css">
 </head>
+
 <body>
      <!---navbar-->
      <header class="header">
@@ -27,27 +30,49 @@
     </header>
 
     <main>
-        <h1>Pagina de recetario</h1>
+        <h1>¡Bienvenido al rincón de las recetas del Studio Ghibli!</h1>
         <p>
-            ¡Bienvenido al rincón de las recetas del Studio Ghibli! Sumérgete en un mundo de sabores extraordinarios y crea tus propias aventuras culinarias con nuestras detalladas guías inspiradas en las películas más queridas de Studio Ghibli.
+            Sumérgete en un mundo de sabores extraordinarios y crea tus propias aventuras culinarias con nuestras detalladas guías inspiradas en las películas más queridas de Studio Ghibli.
         </p>
-        <!--Una receta-->
-      <div>
-            <button type="button"  onclick="location.href='./breakfast.html';">
+        <!--Receta: Desayuno-->
+        <div class="botones-container">
+            <button type="button"  onclick="location.href='./Recetas/breakfast.html';" class="boton">
                 <img src="./img/Breakfast.jpeg">
                 <h1>Desayuno</h1>
                 <h2>El castillo ambulante</h2>
             </button>
-        </div>
-        <!--Otra receta-->
-       <div>
-            <button type="button"  onclick="location.href='';">
+            <button type="button"  onclick="location.href='./Recetas/bento.html';" class="boton">
                 <img src="./img/bento.png">
                 <h1>Bento</h1>
                 <h2>Mi vecino totoro</h2>
             </button>
+            <button class="boton">
+                <img src="./img/bollos_al_vapor.png" alt="">
+                <h1>Bollos al vapor</h1>
+                <h2>El viaje de chihiro</h2>
+            </button>
+            <button class="boton">
+                <img src="./img/ramen.jpg" alt="">
+                <h1>Ramen</h1>
+                <h2>Ponyo</h2>
+            </button>
+            <button class="boton">
+                <img src="./img/nimono.png" alt="">
+                <h1>Nimono</h1>
+                <h2>El castillo en el cielo</h2>
+            </button>
+            <button class="boton">
+                <img src="./img/kasutera.png" alt="">
+                <h1>Kasutera</h1>
+                <h2>El viaje de chihiro</h2>
+            </button>
+            <button class="boton">
+                <img src="./img/okayu.png" alt="">
+                <h1>Okayu</h1>
+                <h2>La princesa mononoke</h2>
+            </button>
         </div>
     </main>
-    <script src="js/navigation.js"></script>
+    <script src="js/recipes.js"></script>
 </body>
 </html>
