@@ -1,12 +1,38 @@
+.botones-container {
+    width: 200px;
+    height: 200px;
+}
 .boton:hover{
     background-color: white;
     border: none;
-    padding: 16px; /*Relleno dentro del boton para separar el contenido borde*/
+    padding: 10px; /*Relleno dentro del boton para separar el contenido borde*/
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }   
 img {
-    width: 200px;
-    height: 200px;
-    margin-bottom: 10px;
+    width: 100%;
+    margin-bottom: 10px;   
 }
+#recipe1 {
+    padding: 10px;
+}
+#recipe2 {
+    padding: 10px;
+}
+#recipe3 {
+    padding: 10px;
+}
+#recipe4 {
+    padding: 10px;
+}
+#recipe5 {
+    padding: 10px;
+}
+#recipe6 {
+    padding: 10px;
+}
+#recipe7 {
+    padding: 10px;
+}
+
+
 
