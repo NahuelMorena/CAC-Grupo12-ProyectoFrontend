@@ -1,8 +1,12 @@
 #body{
     background-color:  #B8D5BA;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 .imagen-pelicula{
     height: 500px;
     width: 600px;
+    
 }
+
