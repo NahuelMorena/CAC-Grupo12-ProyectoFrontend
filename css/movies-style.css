@@ -1,0 +1,21 @@
+#body{
+    background-color:  #B8D5BA;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.imagen-pelicula{
+    height: 500px;
+    width: 500px;
+    
+}
+.div-peliculas{}
+
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.flex-container > div{
+    width: 400px;
+    margin: 60px;
+}
