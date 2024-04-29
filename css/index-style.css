@@ -71,3 +71,47 @@ body {
 .btn:active {
     background-color: #606263; /* Cambia el color de fondo cuando se hace clic en el botón */
 }
+
+@media screen and (max-width: 1000px) { 
+    .title {
+        display: none;
+    }
+}    
+
+@media screen and (max-width: 810px) { 
+    .title {
+        display: none;
+    }
+
+    body {
+        background-position: 50% 230%;
+    }
+
+    .containerSecundary {
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+    /* Estilos para la descripción y las imágenes */
+    .description, .images {
+        width: 100%;
+    }
+    /* Estilo opcional para el botón */
+    .btn {
+        margin-top: 10px; /* Espacio entre el texto y el botón */
+    }
+}    
+
+
+@media screen and (max-width: 600px) {
+    .images img {
+        width: calc(100% - 40px); /* Resta el doble del margen para que ocupe todo el ancho de la pantalla */
+        height: auto; /* Permite que la altura se ajuste automáticamente manteniendo la proporción */
+    }
+
+    body {
+        background-position: 50% 60%;
+        background-repeat:repeat;
+    }
+}
