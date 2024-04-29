@@ -4,6 +4,7 @@
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    padding: 10px;
 }
 .logo-img {
     width: 50px;
@@ -12,7 +13,7 @@
 
 .nav {
     display: flex;
-    margin: 0 auto;
+    margin: 0;
 }
 
 .nav-link {
@@ -24,15 +25,15 @@
 .logo {
     font-size: 30px;
     font-weight: bold;
-    padding: 0 40px;
-    margin-right: 15em;
-    width: 300px;
+    padding: 0 20px;
 }
 
 .nav-menu {
+    position: absolute;
     display: flex;
     list-style: none;
     padding: 0;
+    left: 50%;
 }
 
 .nav-menu-item {
@@ -55,4 +56,72 @@
 .active {
     font-size: 18px;
     color: #c49515;
+}
+
+/* Estilos para el menú hamburguesa */
+.hamburger-menu {
+    display: none;
+}
+
+@media screen and (max-width: 980px){
+    .nav-menu {
+        left: 45%;
+    }
+}
+
+@media screen and (max-width: 883px) {
+
+    .nav-menu {
+        display: none; 
+    }
+
+    .hamburger-menu {
+        display: block;
+        position: absolute;
+        font-size: 20px;
+        background: none;
+        border: none;
+        cursor: pointer;
+        padding: 10px;
+        border-radius: 10px;
+        margin-top: 10px;
+        border: 1px solid rgb(121, 119, 119);
+        background-color: #9fc0a2;
+        left: 90%;
+    }
+
+    .hamburger-menu:hover {
+        background-color: #8aa78c;
+    }
+
+    .hamburger-menu:active {
+        background-color: #788a79;
+    }
+
+    .nav-menu.show {
+        display: block;
+        position: fixed; /* Fijar la posición en la ventana del navegador */
+        top: 25%; /* Centrar verticalmente */
+        left: 80%; /* Centrar horizontalmente */
+        transform: translate(-50%, -50%); /* Centrar respecto al centro */
+        background-color: rgba(255, 255, 255, 0.9); /* Fondo semitransparente */
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Sombra */
+        z-index: 999; 
+    }
+
+    .nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    .logo {
+        margin-right: 0;
+    }
+
+    .nav-menu-item {
+        margin:10px 0;
+    }
 }

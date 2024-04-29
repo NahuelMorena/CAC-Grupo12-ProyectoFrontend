@@ -18,5 +18,13 @@ document.addEventListener("DOMContentLoaded", function() {
                     link.classList.add('active');
                 }
             });
+
+            // Acceder al botón hamburguesa después de cargar el contenido del navbar
+            const menuBtn = navbarContainer.querySelector('.hamburger-menu');
+            const navMenu = navbarContainer.querySelector('.nav-menu');
+
+            menuBtn.addEventListener('click', function() {
+                navMenu.classList.toggle('show');
+            });
         });
 });
