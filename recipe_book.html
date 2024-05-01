@@ -1,46 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Recipe book</title>
+    <title>Recetario</title>
     <link rel="icon" href="img/icono.ico" type="image/png">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/nav-style.css">
+    <link rel="stylesheet" href="./Recetas/breakfast.html">
+    <link rel="stylesheet" href="./Recetas/bento.html">
+    <link rel="stylesheet" href="./css/recipe_book.css">
 </head>
+
 <body>
-     <!---navbar-->
-     <header class="header">
+    <!---navbar-->
+    <header class="header">
         <nav class="nav">
             <a href="index.html" class="logo nav-link">
                 <img src="./img/icons8-totoro-480.png" alt="Imagen logo" class="logo-img">
-               STUDIO GHIBLI</a>
+                STUDIO GHIBLI</a>
             <ul class="nav-menu">
                 <li class="nav-menu-item"><a href="index.html" class="nav-menu-link nav-link">Inicio</a></li>
                 <li class="nav-menu-item"><a href="about.html" class="nav-menu-link nav-link">About</a></li>
                 <li class="nav-menu-item"><a href="movies.html" class="nav-menu-link nav-link">Peliculas</a></li>
                 <li class="nav-menu-item"><a href="characters.html" class="nav-menu-link nav-link">Personajes</a></li>
-                <li class="nav-menu-item"><a href="recipe_book.html" class="nav-menu-link nav-link" id="current">Recetario</a></li>
+                <li class="nav-menu-item"><a href="recipe_book.html" class="nav-menu-link nav-link"
+                        id="current">Recetario</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <h1>Pagina de recetario</h1>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint numquam doloremque aspernatur corporis mollitia id culpa exercitationem alias similique fugit, adipisci laudantium, itaque vel quam saepe voluptate veniam. Soluta, obcaecati!</p>
-        <!--Una receta-->
-        <div>
-            <img src="#">
-            <h1>Desayuno</h1>
-            <button>El castillo ambulante</button>
+        <h1 id="font-title">¡Bienvenido al rincón de las recetas del Studio Ghibli!</h1>
+        <p id="font-subtitulo">
+            Sumérgete en un mundo de sabores extraordinarios y crea tus propias aventuras culinarias con nuestras
+            detalladas guías inspiradas en las películas más queridas de Studio Ghibli.
+        </p>
+
+
+        <!--Receta 1-->
+        <div id="recipe">
+            <button type="button" onclick="location.href='./Recetas/breakfast.html';" class="boton">
+                <img src="./img/Breakfast.jpeg">
+                <h1 id="font-titulo-receta">Tocinos y huevos</h1>
+                <h2 id="font-pelicula">El castillo ambulante</h2>
+            </button>
         </div>
-        <!--Otra receta-->
-        <div>
-            <img src="#">
-            <h1>Bento</h1>
-            <button>Mi vecino totoro</button>
+
+        <!--Receta 2-->
+        <div id="recipe">
+            <button type="button" onclick="location.href='./Recetas/bento.html';" class="boton">
+                <img src="./img/bento.png"> 
+                <h1 id="font-titulo-receta">Bento</h1>
+                <h2 id="font-pelicula">Mi vecino totoro</h2>
+            </button>
         </div>
+
+        <!--Receta 3-->
+        <div id="recipe">
+            <button class="boton">
+                <img src="./img/bollos_al_vapor.png" alt="">
+                <h1 id="font-titulo-receta">Bollos al vapor</h1>
+                <h2 id="font-pelicula">El viaje de chihiro</h2>
+            </button>
+        </div>
+
+        <!--Receta 4-->
+        <div id="recipe">
+            <button class="boton">
+                <img src="./img/ramen.jpg" alt="">
+                <h1 id="font-titulo-receta">Ramen</h1>
+                <h2 id="font-pelicula">Ponyo</h2>
+            </button>
+        </div>
+
+        <!--Receta 5-->
+        <div id="recipe">
+            <button class="boton">
+                <img src="./img/nimono.png" alt="">
+                <h1 id="font-titulo-receta">Nimono</h1>
+                <h2 id="font-pelicula">El castillo en el cielo</h2>
+            </button>
+        </div>
+
+        <!--Receta 6-->
+        <div id="recipe">
+            <button class="boton">
+                <img src="./img/kasutera.png" alt="">
+                <h1 id="font-titulo-receta">Kasutera</h1>
+                <h2 id="font-pelicula">El viaje de chihiro</h2>
+            </button>
+        </div>
+        <!--Receta 7-->
+        <div id="recipe">
+            <button class="boton">
+                <img src="./img/okayu.png" alt="">
+                <h1 id="font-titulo-receta">Okayu</h1>
+                <h2 id="font-pelicula">La princesa mononoke</h2>
+            </button>
+        </div>
+
+
+
+
+
     </main>
-    <script src="js/navigation.js"></script>
+    <script src="./js/recipes.js"></script>
 </body>
+
 </html>
