@@ -1,15 +1,18 @@
-header{
+header {
     background-color: #B8D5BA;
 }
-body{
+
+body {
     background-color: #B8D5BA;
 }
+
 #font-title {
     font-family: 'Montserrat', sans-serif;
     color: #31241E;
     font-style: italic;
     text-align: center;
 }
+
 #font-subtitulo {
     font-family: 'Montserrat', sans-serif;
     color: #31241E;
@@ -24,27 +27,38 @@ body{
 
 #font-pelicula {
     font-family: 'Montserrat', sans-serif;
-    color: #31241E;
+    color: #000000;
     font-size: 16px;
     background-color: #D1C8C1;
-    
 }
-
-.boton {
-    height: 320px;
-    width: 200px;
-    background-color: white;
-    border: none;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-}  
 
 img {
     height: 180px;
     margin-top: 5px;
 }
+
 #recipe {
-    padding: 10px; 
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    /* Alinea verticalmente el contenido dentro del div #recipe */
+}
+.contenido-desplegable {
+    display: none;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
 }
 
+#recipe img {
+    cursor: pointer; /* Cambia el cursor al pasar sobre la imagen */
+    padding: 8px 12px; /* Espaciado del botón */
+    color: #fff; /* Color del texto del botón */
+    border: none; /* Quita el borde del botón */
+    margin-right: 10px; /* Espacio a la derecha de la imagen para separarla del texto */
+}
 
+#recipe img:hover {
+    opacity: 0.7; /* Opacidad reducida al pasar el cursor sobre la imagen */
+}
 
