@@ -1,0 +1,48 @@
+header{
+    background-color: #B8D5BA;
+}
+body{
+    background-color: #B8D5BA;
+}
+#font-title {
+    font-family: 'Montserrat', sans-serif;
+    color: #31241E;
+    font-style: italic;
+    text-align: center;
+}
+#font-subtitulo {
+    font-family: 'Montserrat', sans-serif;
+    color: #31241E;
+    text-align: center;
+}
+
+#font-titulo-receta {
+    font-size: 23px;
+    font-family: 'Montserrat', sans-serif;
+    color: #31241E;
+}
+
+#font-pelicula {
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+    font-size: 16px;
+    background-color: #D1C8C1;
+}
+
+.boton {
+    height: 320px;
+    width: 200px;
+    background-color: white;
+    border: none;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}  
+
+img {
+    height: 180px;
+    margin-top: 5px;
+}
+#recipe {
+    padding: 10px; 
+}
+
+
