@@ -41,7 +41,7 @@ img {
     padding: 10px;
     display: flex;
     align-items: center;
-    /* Alinea verticalmente el contenido dentro del div #recipe */
+    display: inline-block;
 }
 .contenido-desplegable {
     display: none;
