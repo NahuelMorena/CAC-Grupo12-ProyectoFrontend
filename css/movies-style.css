@@ -2,25 +2,33 @@
     padding: 0;
     margin: 0;
 }
-
-#body{
-    background-color:  #B8D5BA;
-    padding-left: 10%;
-    padding-right: 10%;
+.titulo-movie{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.parrafo-movie{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
 }
 
-.imagen-pelicula{
-    height: 500px;
-    width: 500px;
-    
-}
-.div-peliculas{}
-
-.flex-container{
-    display: flex;
-    flex-wrap: wrap;
-}
-.flex-container > div{
+.imagen-secction{
+    height: 300px;
     width: 400px;
-    margin: 60px;
+}
+.contenedor-imagen, .contenedor-boton {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.contenedor-boton .btn-expandir {
+    display: block;
+    margin-top: 10px;
+}
+
+.expandir-info {
+    
+    display: none;
+}
+
+.expandir-info.mostrar {
+    display: block;
 }
