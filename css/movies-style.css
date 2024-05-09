@@ -5,6 +5,17 @@
 body{
     background-color: #b8d5ba;
 }
+.encabezado{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #333;
+    padding: 0;
+}
+.contenido{
+    margin-top: 60px;
+    padding: 20px;
+}
 .titulo-movie{
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
