@@ -31,4 +31,11 @@ body {
     background-color: #3d3e3f; /* Cambia el color de fondo cuando se hace clic en el botón */
 }
 
+.encabezado{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #b8d5ba;
+    padding: 0;
+} /*Estilo del encabezado de la pagina*/
 
