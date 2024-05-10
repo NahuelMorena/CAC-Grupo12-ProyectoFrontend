@@ -5,13 +5,7 @@
 body{
     background-color: #b8d5ba;
 }
-.encabezado{
-    position: fixed;
-    top: 0;
-    width: 100%;
-    background-color: #333;
-    padding: 0;
-}
+
 .contenido{
     margin-top: 80px;
     padding: 0px;
