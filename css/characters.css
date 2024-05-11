@@ -18,3 +18,8 @@ body{
 .titulo-characters{
     text-align: center;
 }
+.div-collapse{
+    display: inline-block;
+    margin: 10px;
+    vertical-align: top;
+}
