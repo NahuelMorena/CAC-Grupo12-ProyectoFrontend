@@ -32,7 +32,12 @@ body {
     background-color: #3d3e3f; /* Cambia el color de fondo cuando se hace clic en el botón */
 }
 
-
+.titulo-paginas{
+    font-family: 'Montserrat', sans-serif;
+    color: #31241E;
+    font-style: italic;
+    text-align: center;
+}
 /*
 .encabezado{
     position: fixed;
