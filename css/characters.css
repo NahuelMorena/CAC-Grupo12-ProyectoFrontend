@@ -38,7 +38,6 @@ body{
 }
 .btn-expandir{
     background-color: #b8d5ba;
-    border-radius: 100%;
-    border-bottom: #b8d5ba;
-    border-color: #b8d5ba;
+    border:none;
+    outline: none;
 }
