@@ -10,16 +10,35 @@ body{
 }
 
 .imagen-titulo{
-    max-width: 100%;
+    max-width: 70%;
+    padding: 0px;
     height: auto;
     display: block;
     margin: 0 auto;
+    justify-content: center;
 }
+@media (max-width: 600px) {
+    .imagen-titulo{
+        max-width: 100%;
+    }
+    .imagen-personaje{
+        max-width: 50%;
+    }
+}
+
 .titulo-characters{
+ text-align: center;   
+}
+.personaje{
     text-align: center;
 }
-.div-collapse{
-    display: inline-block;
-    margin: 10px;
-    vertical-align: top;
+.imagen-personaje{
+    display: block;
+    margin: 0 auto;
+}
+.btn-expandir{
+    background-color: #b8d5ba;
+    border-radius: 100%;
+    border-bottom: #b8d5ba;
+    border-color: #b8d5ba;
 }
