@@ -24,6 +24,11 @@ body{
     .imagen-personaje{
         max-width: 50%;
     }
+    .contenido{
+        max-width: 99%;
+        margin-left: 2px;
+        justify-content: center;
+    }
 }
 
 .titulo-characters{
