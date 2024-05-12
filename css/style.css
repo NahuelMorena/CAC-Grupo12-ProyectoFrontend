@@ -32,7 +32,25 @@ body {
     background-color: #3d3e3f; /* Cambia el color de fondo cuando se hace clic en el botón */
 }
 
-
+.titulo-paginas{
+    font-family: 'Montserrat', sans-serif;
+    color: #31241E;
+    font-style: italic;
+    text-align: center;
+}
+.imagen-titulo{
+    max-width: 70%;
+    padding: 0px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    justify-content: center;
+}
+@media (max-width: 600px) {
+    .imagen-titulo{
+        max-width: 100%;
+    }
+}
 /*
 .encabezado{
     position: fixed;
