@@ -25,12 +25,8 @@ body{
 .personaje{
     text-align: center;
 }
-.imagen-personaje{
-    display: block;
-    margin: 0 auto;
-}
-.btn-expandir{
-    background-color: #b8d5ba;
-    border:none;
-    outline: none;
+
+.card .cover img{
+    width: 300px;
+    height: auto;
 }
