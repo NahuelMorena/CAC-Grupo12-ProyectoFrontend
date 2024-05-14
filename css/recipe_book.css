@@ -4,61 +4,94 @@ header {
 
 body {
     background-color: #B8D5BA;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
 }
-
-#font-title {
+/* TITULOS*/
+#titulo {
     font-family: 'Montserrat', sans-serif;
     color: #31241E;
     font-style: italic;
     text-align: center;
 }
 
-#font-subtitulo {
+#subtitulo {
     font-family: 'Montserrat', sans-serif;
-    color: #31241E;
     text-align: center;
+    font-size: 18px;
+    
 }
-
-#font-titulo-receta {
-    font-size: 23px;
+/*RECETAS GENERAL*/
+.receta {
+    display: flex;
+    
+}
+#titulo-receta {
+    margin-top: 80px;
+    font-size: 35px;
     font-family: 'Montserrat', sans-serif;
     color: #31241E;
 }
-
-#font-pelicula {
+#titulo-pelicula {
     font-family: 'Montserrat', sans-serif;
-    color: #000000;
-    font-size: 16px;
+    font-size: 18px;
+    
+}
+#resumen-receta {
+    font-family: 'Poppins';
+    font-size: 15px;
+    color: #31241E;
+}
+/*RECETAS DERECHA*/
+#img-recetas-right{
+    margin-top: 50px;
+    margin-left: 150px;
+    height: 250px;
+    width: 500px;
+    object-fit: cover;;
+    border-radius: 12px;
+}
+.descripcion-receta-right {
+    margin-left: 80px;  
+    margin-right: 100px;
+}
+.button-right {
     background-color: #D1C8C1;
-}
-
-img {
-    height: 180px;
-    margin-top: 5px;
-}
-
-#recipe {
+    border: 1px solid #8d837e;
+    color: #31241E;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 20px;
     padding: 10px;
-    display: flex;
-    align-items: center;
-    display: inline-block;
+    font-weight: bold;
+    margin-left: 600px;
 }
-.contenido-desplegable {
-    display: none;
+/*RECETAS IZQUIERDA*/
+.descripcion-receta-left {
+    order: 1;
+    margin-left: 150px;
+    width: 800px;
+}
+#img-recetas-left {
+    order: 2;
+    margin-top: 50px;
+    margin-right: 80px;
+    height: 250px;
+    width: 500px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+.button-left {
+    background-color: #D1C8C1;
+    border: 1px solid #8d837e;
+    color: #31241E;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 20px;
     padding: 10px;
-    background-color: #f0f0f0;
-    border: 1px solid #ccc;
-}
-
-#recipe img {
-    cursor: pointer; /* Cambia el cursor al pasar sobre la imagen */
-    padding: 8px 12px; /* Espaciado del botón */
-    color: #fff; /* Color del texto del botón */
-    border: none; /* Quita el borde del botón */
-    margin-right: 10px; /* Espacio a la derecha de la imagen para separarla del texto */
-}
-
-#recipe img:hover {
-    opacity: 0.7; /* Opacidad reducida al pasar el cursor sobre la imagen */
+    font-weight: bold;
+    margin-left: 600px;
 }
 
