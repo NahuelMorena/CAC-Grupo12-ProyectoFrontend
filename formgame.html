@@ -13,77 +13,78 @@
     
     <!---navbar-->
     <div id="navbarContainer"></div>
-    <div id="div-form">
-        <section id="formContainer">
-            <h1>Formulario</h1>
-            <form>
-                <div>
-                    <label for="txtName">Name</label>
-                    <input id="txtName" type="text" placeholder="Name" required>
-                </div>
-                <div>
-                    <label for="txtSurname">Surname</label>
-                    <input id="txtSurname" type="text" placeholder="Surname" required>    
-                </div>
-                <div>
-                    <label for="dateYear">Edad</label>
-                    <input id="dateYear" type="date" placeholder="Edad" required>
-                </div>
-                <h2>Pregunta</h2>
-                <div>
-                    <label for="firstMovie">¿Cual fue la primera pelicula realizada por la empresa?</label>
-                    <select id="firstMovie">
-                        <option value="option1">Option 1</option>
-                        <option value="option2">Option 2</option>
-                        <option value="option3">Option 3</option>
-                    </select>
-                </div>
-                <div>
-                    <label for="firstMovie">¿Cual es el nombre del personaje usado como logo del sitio?</label>
-                    <select id="firstMovie">
-                        <option value="option1">Option 1</option>
-                        <option value="option2">Option 2</option>
-                        <option value="option3">Option 3</option>
-                    </select>
-                </div>
-                <div>
-                    <label>Seleccione a los personajes de la empresa</label>
-                    <div class="checkbox-container">
-                        <label for="character1">Checkbox Option:</label>
-                        <input id="character1" type="checkbox" name="character1">
-                        <label for="character2">Checkbox Option:</label>
-                        <input id="character2" type="checkbox" name="character2">
-                        <label for="character3">Checkbox Option:</label>
-                        <input id="character3" type="checkbox" name="character3">
-                        <label for="character4">Checkbox Option:</label>
-                        <input id="character4" type="checkbox" name="character4">
+
+    <main> 
+        <div id="div-form">
+            <section id="formContainer">
+                <h1>Formulario</h1>
+                <form>
+                    <div>
+                        <label for="txtName">Nombre</label>
+                        <input id="txtName" type="text" placeholder="Ingrese un nombre..." required>
                     </div>
-                </div>
-                <div>
-                    <label>Seleccione la receta de la empresa:</label>
-                    <div class="checkbox-container">
-                        <label for="bento">bento</label><br>
-                        <input type="radio" id="bento" name="recipe" value="bento">
-                        <label for="tacos">tacos</label><br>
-                        <input type="radio" id="tacos" name="recipe" value="tacos">
-                        <label for="hamburguesas">hamburguesas</label><br>
-                        <input type="radio" id="hamburguesas" name="recipe" value="hamburguesas">
-                        <label for="onigiri">onigiri</label><br>
-                        <input type="radio" id="onigiri" name="recipe" value="onigiri">
+                    <div>
+                        <label for="txtSurname">Apellido</label>
+                        <input id="txtSurname" type="text" placeholder="Ingrese un apellido..." required>    
                     </div>
-                </div>
-                <div id="imageUploadContainer">
-                    <label>Cargue una imagen:</label>
-                    <label for="imageUpload" id="uploadLabel"><br>Buscar una imagen</label>
-                    <input type="file" id="imageUpload" name="imageUpload" accept="image/jpeg" onchange="displayFileName()">
-                </div>
-                <div id="submitButton">
-                    <input class="btn" type="submit" value="Submit">
-                </div>
-            </form>
-        </section>
-    </div>
-</main>
+                    <div>
+                        <label for="dateYear">Edad</label>
+                        <input id="dateYear" type="date" placeholder="Ingrese una edad..." required>
+                    </div>
+                    <h2>Preguntas</h2>
+                    <div>
+                        <label for="firstMovie">¿Cual fue la primera pelicula realizada por la empresa?</label>
+                        <select id="firstMovie">
+                            <option value="option1">Option 1</option>
+                            <option value="option2">Option 2</option>
+                            <option value="option3">Option 3</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="logoCharacter">¿Cual es el nombre del personaje usado como logo del sitio?</label>
+                        <select id="logoCharacter">
+                            <option value="option1">Option 1</option>
+                            <option value="option2">Option 2</option>
+                            <option value="option3">Option 3</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label>Seleccione a los personajes de la empresa</label>
+                        <div class="checkbox-container">
+                            <label for="character1">Character1:</label>
+                            <input id="character1" type="checkbox" name="character" value="character1">
+                            <label for="character2">Character2:</label>
+                            <input id="character2" type="checkbox" name="character" value="character2">
+                            <label for="character3">Character3:</label>
+                            <input id="character3" type="checkbox" name="character" value="character3">
+                            <label for="character4">Character4:</label>
+                            <input id="character4" type="checkbox" name="character" value="character4">
+                        </div>
+                    </div>
+                    <div>
+                        <label>Seleccione la receta de la empresa:</label>
+                        <div class="checkbox-container">
+                            <label for="bento">bento</label><br>
+                            <input type="radio" id="bento" name="recipe" value="bento">
+                            <label for="tacos">tacos</label><br>
+                            <input type="radio" id="tacos" name="recipe" value="tacos">
+                            <label for="hamburguesas">hamburguesas</label><br>
+                            <input type="radio" id="hamburguesas" name="recipe" value="hamburguesas">
+                            <label for="onigiri">onigiri</label><br>
+                            <input type="radio" id="onigiri" name="recipe" value="onigiri">
+                        </div>
+                    </div>
+                    <div id="imageUploadContainer">
+                        <label>Cargue una imagen:</label>
+                        <label for="imageUpload" id="uploadLabel"><br>Buscar una imagen</label>
+                        <input type="file" id="imageUpload" name="imageUpload" accept="image/jpeg" onchange="displayFileName()">
+                    </div>
+                    <div id="submitButton">
+                        <input class="btn" type="submit" value="Enviar resultados">
+                    </div>
+                </form>
+            </section>
+        </div>  
     </main>
     <script src="js/navigation.js"></script>
     <script src="js/formGame.js"></script>
