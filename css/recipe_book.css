@@ -70,12 +70,10 @@ body {
 }
 /*RECETAS IZQUIERDA*/
 .descripcion-receta-left {
-    order: 1;
     margin-left: 150px;
     width: 800px;
 }
 #img-recetas-left {
-    order: 2;
     margin-top: 50px;
     margin-right: 80px;
     height: 250px;
