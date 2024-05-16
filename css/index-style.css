@@ -3,22 +3,23 @@ Estilos globales para todo el sitio webs.
 */
 header{
     background-color: #B8D5BA;
-    
 }
 
 body {
     background-color: #B8D5BA;
-    margin: 0;
-    padding: 0;
-    background-image: url(../img/Studio_Ghibli_logo.svg.png);
-    background-position: 80% 220%;
-    background-repeat: no-repeat;
 }
 
+.image {
+    background-image: url(../img/Studio_Ghibli_logo.svg.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 590px;
+}   
+
 .title {
-    font-size: large;
+    font-size: medium;
     position: absolute;
-    top: 40%;
+    top: 20%;
     left: 5%;
     transform: translateX(-50px);
     max-width: 400px;
@@ -26,7 +27,6 @@ body {
 
 .containerSecundary {
     display: flex;
-    margin-top: 30%;
     background-color: #B8D5BA;
 }
 
@@ -61,19 +61,7 @@ body {
     margin-left: 10%;
 }
 
-.btn {
-    background-color: #484a4b; /* Color de fondo del botón */
-}
-
-.btn:hover {
-    background-color: #909294; /* Cambia el color de fondo al pasar el mouse sobre el botón */
-}
-
-.btn:active {
-    background-color: #606263; /* Cambia el color de fondo cuando se hace clic en el botón */
-}
-
-@media screen and (max-width: 1000px) { 
+@media screen and (max-width: 1100px) { 
     .title {
         display: none;
     }

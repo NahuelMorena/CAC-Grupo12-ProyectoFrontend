@@ -1,3 +1,18 @@
+#titulo-1 {
+    font-family: 'Montserrat', sans-serif;
+    color: #31241E;
+    font-style: italic;
+    text-align: center;
+    margin-top: 70px;
+}
+
+#subtitulo {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 18px;
+    
+}
+
 #div-form {
     width: 80%;
     margin: 0 auto;
@@ -14,9 +29,9 @@ form {
     margin-top: 20px;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 805px) {
     form {
-        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        grid-template-columns: repeat(2,1fr);
     }
 }
 
@@ -117,16 +132,4 @@ div.checkbox-container {
 
 div.checkbox-container label {
     flex: 0 0 60%;
-}
-
-.btn {
-    background-color: #484a4b; /* Color de fondo del botón */
-}
-
-.btn:hover {
-    background-color: #909294; /* Cambia el color de fondo al pasar el mouse sobre el botón */
-}
-
-.btn:active {
-    background-color: #606263; /* Cambia el color de fondo cuando se hace clic en el botón */
 }
