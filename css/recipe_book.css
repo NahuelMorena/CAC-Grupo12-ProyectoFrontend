@@ -59,9 +59,8 @@ body {
     margin-right: 100px;
 }
 .button-right {
-    background-color: #D1C8C1;
-    border: 1px solid #8d837e;
-    color: #31241E;
+    background-color: #31241E;
+    color: white;
     font-size: 20px;
     font-family: 'Montserrat', sans-serif;
     border-radius: 20px;
@@ -83,9 +82,8 @@ body {
     border-radius: 12px;
 }
 .button-left {
-    background-color: #D1C8C1;
-    border: 1px solid #8d837e;
-    color: #31241E;
+    background-color: #31241E;
+    color: white;
     font-size: 20px;
     font-family: 'Montserrat', sans-serif;
     border-radius: 20px;
