@@ -1,0 +1,46 @@
+header {
+    background-color: #B8D5BA;
+}
+
+body {
+    background-color: #B8D5BA;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+#titulo {
+    font-family: "Raleway", sans-serif;
+    color: #31241E;
+    text-align: center;
+    margin-top: 70px;
+}
+/*Ingredientes*/
+.ingredientes {
+    display: flex;
+}
+.ingredientes-contenido {
+    font-family: "Raleway", sans-serif;
+    color: #161616;
+    margin-left: 300px;
+    margin-top: 80px;
+}
+#img {
+    margin-left: 200px;
+    width: 400px
+    
+}
+/*Instrucciones*/
+.instrucciones {
+    display: flex;
+}
+.instrucciones-contenido {
+    font-family: "Raleway", sans-serif;
+    color: #161616;
+    margin-left: 20px;
+    margin-right: 200px;
+}
+#img2 {
+    margin-left: 200px;
+    height: 300px;
+}

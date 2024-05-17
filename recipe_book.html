@@ -5,244 +5,149 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Recetario</title>
-    <link rel="icon" href="img/icono.ico" type="image/png">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/nav-style.css">
     <link rel="stylesheet" href="./css/recipe_book.css">
 </head>
-<style>
-   
-</style>
 
 <body>
     <!---navbar-->
     <div id="navbarContainer"></div>
 
     <main>
-        <h1 id="font-title">¡Bienvenido al rincón de las recetas del Studio Ghibli!</h1>
-        <p id="font-subtitulo">
+      <h1 id="titulo-1">¡BIENVENIDO AL RINCÓN DE LAS RECETAS DEL STUDIO GHIBLI!</h1>
+        <p id="subtitulo">
             Sumérgete en un mundo de sabores extraordinarios y crea tus propias aventuras culinarias con nuestras
             detalladas guías inspiradas en las películas más queridas de Studio Ghibli.
         </p>
 
-
         <!--Receta 1-->
-        <div id="recipe">
-            <button id="boton-desplegar">
-                <img src="./img/Recetas/Breakfast.jpeg" class="imagen-boton">
-                <h1 id="font-titulo-receta">Tocinos y huevos</h1>
-                <h2 id="font-pelicula">El castillo ambulante</h2>
-            </button>
-        </div>
-        <!--Contenido desplegable-->
-        <div class="contenido-desplegable">
-            <h3>Ingredientes</h3>
-            <ul>
-                <li>Tocino</li>
-                <li>Huevos</li>
-                <li>Pan</li>
-                <li>Queso cheeddar blanco</li>
-            </ul>
-            <h3>Instrucciones</h3>
-            <ol>
-                <li>Calienta tu sartén hasta que esté caliente y coloca las rebanadas de tocino. Cocine hasta que esté crujiente, aproximadamente de 10 a 15 minutos. Voltear hasta la mitad.</li>
-                <li>Luego, dejando la grasa del tocino en la sartén, agrega los huevos. Cocine a su preferencia.</li>
-                <li>Coloque el tocino sobre toallas de papel sobre un plato para absorber un poco de grasa. Escurre el exceso de grasa en un frasco.</li>
-                <li>Corta tus rebanadas de pan.</li>
-                <li>Luego, agregue las rebanadas de pan a la sartén y ase ligeramente durante aproximadamente 2 a 4 minutos, volteándolas a la mitad.</li>
-                <li>¡Pon tu desayuno en un plato y luego disfrútalo!</li>
-            </ol>
+        <div class="receta">
+            <img src="./img/Recetas/Breakfast.jpeg" alt="breakfast" id="img-recetas-right">
+            <div class="descripcion-receta-right">
+                <h2 id="titulo-receta">Tocino y huevos</h2>
+                <h3 id="titulo-pelicula">El castillo ambulante</h3>
+                <p id="resumen-receta">
+                    Empieza tu día con el delicioso desayuno del Castillo Ambulante. ¡Descubre cómo prepararlo aquí!
+                </p>
 
+                <a href="./tocinoyhuevos.html">
+                    <button class="button-right">
+                        Leer más
+                    </button>
+                </a>
+            </div>
         </div>
 
         <!--Receta 2-->
-        <div id="recipe">
-            <button id="boton-desplegar">
-                <img src="./img/Recetas/bento.png" class="imagen-boton"> 
-                <h1 id="font-titulo-receta">Bento</h1>
-                <h2 id="font-pelicula">Mi vecino totoro</h2>
-            </button>
-        </div>
-        <!--Contenido desplegable-->
-        <div class="contenido-desplegable">
-            <h3>Ingredientes</h3>
-            <ul>
-                <li>1 taza de arroz blanco cocido</li>
-                <li title="Ciruela japonesa salada y encurtida">1 Umeboshi</li>
-                <li title="Los shishamo son pequeños peces plateados originarios de Hokkaido, Japón.">1 Shishamo</li>
-                <li>1 cucharada de aceite</li>
-                <li title=" Los edamame son semillas de soja que se cosechan antes de su madurez.">Un punado de edamame congelado</li>
-                <li title="Está hecho de bacalao que se cocina, se desmenuza y luego se seca para obtener hojuelas que se sazonan para que queden ligeramente dulces. Tiene un color rosa para imitar los pétalos de las flores de cerezo.">1 cucharada de sakura denbu</li>
-            </ul>
-            <h3>Instrucciones</h3>
-            <ol>
-                <li>Coloque arroz cocido en su caja bento aproximadamente a 3/4 de su capacidad (deje algo de espacio en la parte superior para los ingredientes y para poder tapar).</li>
-                <li>Toma 1 umeboshi y ponlo a un lado del arroz.</li>
-                <li>En una sartén pequeña, calienta el aceite a fuego medio-alto. Cocine un shishamo por ambos lados hasta que esté cocido.</li>
-                <li>Coloque el shishamo cocido en el centro de la caja bento sobre el arroz.</li>
-                <li>Hervir agua en una olla pequeña. Agregue un puñado de edamame congelado y cocine según las instrucciones del paquete.</li>
-                <li>Una vez cocidos, saca los frijoles edamame de la vaina. Colóquelos sobre el arroz para llenar un poco menos de una cuarta parte de la caja bento, debajo del shishamo.</li>
-                <li> Espolvorea sakura denbu sobre el arroz junto al edamame.</li>
-                <li>¡Disfrútalo cuando sea la hora del almuerzo!</li>
-            </ol>
+        <div class="receta">
+            <div class="descripcion-receta-left">
+                <h2 id="titulo-receta">Ramen</h2>
+                <h3 id="titulo-pelicula">Ponyo</h3>
+                <p id="resumen-receta">
+                    ¿Qué crea el mejor estado de ánimo para el otoño? Una buena película y un buen plato de delicioso ramen.
+                </p>
+
+                <a href="./ramen.html">
+                    <button class="button-left">
+                        Leer más
+                    </button>
+                </a>
+            </div>
+            <img src="./img/Recetas/ramen.jpg" alt="ramen" id="img-recetas-left">
         </div>
 
         <!--Receta 3-->
-        <div id="recipe">
-            <button id="boton-desplegar">
-                <img src="./img/Recetas/bollos_al_vapor.png" class="imagen-boton">
-                <h1 id="font-titulo-receta">Bollos al vapor</h1>
-                <h2 id="font-pelicula">El viaje de chihiro</h2>
-            </button>
-        </div>
-        <!--Contenido desplegable-->
-        <div class="contenido-desplegable">
-            <h3>Ingredientes para el relleno:</h3>
-            <ul>
-                <li title="Conocida como judía, frijol o poroto adzuki (o azuki) y también a veces como soja roja.">15 oz de frijoles adzuki escurridos y enjuagados</li>
-                <li>¾ taza de azúcar</li>
-                <li title="Es un azúcar de palma producido a partir de la savia del tallo de la flor de la palma de coco.">2 cucharadas de azúcar de palma de coco</li>
-                <li title="Es una especie de mantequilla clarificada, originaria de la gastronomía india y paquistaní. Aunque se obtenía originalmente de leche de búfalo, hoy en día se obtiene a partir de la mantequilla de leche de vaca.">2 cucharadas de mantequilla de ghee</li>
-                <li>2 cucharadas de ralladura de naranja</li>
-                <li>¼ cucharadita de sal</li>
-                <li>4 dátiles secos y deshuesados remojados en 4 cucharadas de agua tibia durante 15 minutos (opcional, para darle más dulzor)</li>
-                <li>¼ de taza de agua </li>
-            </ul>
-            <h3>Ingredientes para la masa del bao:</h3>
-            <ul>
-                <li>2 tazas de harina para todo uso</li>
-                <li>1 taza de harina para pastel</li>
-                <li>2 cucharadas de aceite vegetal</li>
-                <li>2 cucharaditas de polvo de hornear</li>
-                <li>1 ¼ taza de agua</li>
-                <li>¼ de taza de azúcar</li>
-                <li>1 paquete de levadura seca activa</li>
-                <li>¼ cucharadita de sal</li>
-            </ul>
-            <h3>Instrucciones para pasta de frijoles rojos:</h3>
-            <ol>
-                <li>Utilice un procesador de alimentos para mezclar los ingredientes de la pasta de frijoles rojos. Agregue solo suficiente agua para mezclar la mezcla hasta obtener una pasta fina y casi suave.</li>
-                <li> Transfiera la mezcla de frijoles rojos a una cacerola a fuego medio-alto. Remueve con una espátula continuamente para evitar que la mezcla se queme en el fondo. La mezcla se oscurecerá y espesará a medida que se cocina. </li>
-                <li>Continúe revolviendo hasta que la espátula se pueda pasar por el fondo de la sartén y dejar un camino limpio detrás de ella. Este proceso puede tardar entre 30 y 40 minutos. La pasta de frijoles rojos debe oscurecerse y espesarse.</li>
-                <li> Retirar del fuego y dejar enfriar a temperatura ambiente hasta que ya no esté humeante. Luego transfiéralo a un recipiente hermético y enfríe en el refrigerador hasta que se espese y forme una pasta oscura, aproximadamente de 8 a 10 horas.</li>
-            </ol>
-            <h3>Instrucciones para la masa de Bao:</h3>
-            <ol>
-                <li>En un tazón grande o en una batidora, mezcle el agua tibia, la levadura y el azúcar. Deje que la levadura se active durante unos 5 a 10 minutos o hasta que esté espumosa.</li>
-                <li>En un recipiente aparte, mezcle los ingredientes secos. Agrega el aceite vegetal a la mezcla seca hasta que se formen pequeñas migajas.</li>
-                <li>Vierta lentamente la mezcla seca en la levadura activada y el agua mientras revuelve constantemente. Continúe mezclando hasta que se forme una masa espesa. Luego use el gancho para masa de la batidora para amasar la masa durante unos 10 minutos, hasta que quede suave y elástica. Alternativamente, coloque la masa sobre una superficie espolvoreada con harina y amase a mano durante 10 minutos hasta que quede suave.</li>
-                <li>Colocar la masa en un bol ligeramente untado con aceite. Cubra el tazón con una toalla húmeda y deje reposar hasta que la masa haya duplicado su tamaño, aproximadamente de 1 a 2 horas.</li>
-                <li>Una vez que haya duplicado su tamaño, golpee la masa y transfiérala a una superficie espolvoreada con harina. Enrolle la masa en forma de tronco largo y luego córtela en 12 trozos del mismo tamaño. Alternativamente, si haces panecillos de frijoles GIGANTES (como se ve en la película), córtalos solo en 4 pedazos.</li>
-                <li>Enrolle suavemente cada pieza hasta darle forma de bola. Coloque las bolas de masa en una bandeja para hornear o tabla de cortar y cúbralas ligeramente con una toalla húmeda.</li>
-                <li>Trabajando una pieza a la vez, use un rodillo para extender cada bola de masa en forma de círculo redondo o envoltorio de bola de masa de 4 a 6 pulgadas. Enrolle los bordes más delgados que el centro.</li>
-                <li>Vierta unas 2 o 3 cucharadas de pasta de frijoles rojos en el centro de la bola de masa. Tire de los bordes sobre el relleno y meta, doble y pellizque hasta que el relleno quede completamente encerrado en la masa. Retire el exceso de masa (según sea necesario) para que la masa tenga un espesor uniforme alrededor del relleno. Coloque cada bola de masa rellena sobre una hoja cuadrada de pergamino. Repita con el resto de la masa y el relleno.</li>
-                <li>Vuelva a colocar las bolas de masa rellenas en la bandeja para hornear o en la tabla de cortar y cúbralas nuevamente con una toalla húmeda, muévalas a un lugar cálido y déjelas reposar durante otros 15 a 30 minutos o hasta que los bollos dupliquen su tamaño.</li>
-                <li>Utilice este segundo tiempo de subida para preparar la vaporera de bambú. Llene un wok con suficiente agua para cubrir el cuarto de pulgada inferior de la vaporera de bambú. Encienda el fuego alto y lleve el agua a fuego lento.</li>
-                <li>Una vez que duplique su tamaño, trabaje en tandas para cocinar los bollos al vapor sin llenar demasiado la vaporera. En mi vaporera caben 3 bollos en cada canasta. Cierra bien la vaporera y cocina al vapor durante 15 minutos. NO ABRA LA VAPORERA O SUS BOLLOS PODRÍAN ARRUGARSE. Retire con cuidado los bollos al vapor de la vaporera y reserve. Repite el proceso de cocción con los bollos restantes.</li>
-                <li>Deje que los bollos se enfríen durante unos 10 minutos para que cuajen completamente el centro. Sirva los bollos al vapor calientes o a temperatura ambiente para obtener mejores resultados. Para recalentar, vuelva a colocar los panecillos en una vaporera precalentada durante aproximadamente 3 a 4 minutos. Disfruta mientras escapas de la casa de baños de Yubaba.</li>
-            </ol>
-        </div>
+        <div class="receta">
+            <img src="./img/Recetas/bento.jpg" alt="bento" id="img-recetas-right">
+            <div class="descripcion-receta-right">
+                <h2 id="titulo-receta">Bento</h2>
+                <h3 id="titulo-pelicula">Mi vecino totoro</h3>
+                <p id="resumen-receta">
+                    ¿Alguna vez has comido una comida que se ve demasiado hermosa para comerla? Si es así, es posible que haya experimentado el arte de hacer bento.
+                </p>
 
-        <!--Receta 4-->
-        <div id="recipe">
-            <button id="boton-desplegar">
-                <img src="./img/Recetas/ramen.jpg" class="imagen-boton">
-                <h1 id="font-titulo-receta">Ramen</h1>
-                <h2 id="font-pelicula">Ponyo</h2>
-            </button>
+                <a href="./bento.html">
+                    <button class="button-right">
+                        Leer más
+                    </button>
+                </a>
+            </div>
+            
         </div>
-        <!--Contenido desplegable-->
-        <div class="contenido-desplegable">
-            <h3>Ingredientes</h3>
-            <ul>
-                <li>1 paquete de fideos ramen instantáneos</li>
-                <li>1 huevo duro o pasado por agua</li>
-                <li>1 cebolla verde en rodajas</li>
-                <li>1 pieza de jamón cortado por la mitad</li>
-                <li>2,5 tazas de agua</li>
-            </ul>
-            <h3>Instrucciones</h3>
-            <ol>
-                <li>Prepara los ingredientes: Hervir el huevo, duro o suave, y cortarlo por la mitad, cortar las cebolletas en rodajas y cortar el jamón por la mitad.</li>
-                <li>Hervir agua en una tetera o en la estufa.</li>
-                <li>Coloque los fideos ramen en un bol. Si tu ramen viene con un paquete de condimento seco para ramen, ábrelo y colócalo ahora.</li>
-                <li>Vierta agua hirviendo en el recipiente. Cubre el recipiente y déjalo reposar según las instrucciones del paquete de ramen (3-5 minutos).</li>
-                <li>Una vez cocidos, destape y separe los fideos con palillos o un tenedor. Mezcle bien el agua, los fideos y el paquete de condimentos.</li>
-                <li>Cubra con la mitad del huevo, la cebolla verde en rodajas y ambos trozos de jamón cortado.</li>
-                <li>¡Disfrútalo inmediatamente para que los fideos no se empapen!</li>
-            </ol>
+        <!--Receta 4-->
+        <div class="receta">
+            
+            <div class="descripcion-receta-left">
+                <h2 id="titulo-receta">Bollos al vapor</h2>
+                <h3 id="titulo-pelicula">El viaje de Chihiro</h3>
+                <p id="resumen-receta">
+                    Descubre la magia de los bollos al vapor de 'El Viaje de Chihiro', donde la exquisitez se encuentra con la creatividad en cada bocado.
+                </p>
+
+                <a href="">
+                    <button class="button-left">
+                        Leer más
+                    </button>
+                </a>
+            </div>
+            <img src="./img/Recetas/bollos_al_vapor.jpg" alt="Bollos al vapor" id="img-recetas-left">
         </div>
 
         <!--Receta 5-->
-        <div id="recipe">
-            <button id="boton-desplegar">
-                <img src="./img/Recetas/nimono.png" class="imagen-boton">
-                <h1 id="font-titulo-receta">Nimono</h1>
-                <h2 id="font-pelicula">El castillo en el cielo</h2>
-            </button>
-        </div>
-        <!--Contenido desplegable-->
-        <div class="contenido-desplegable">
-            <ul>
-                <li>1/2 muslo de pollo</li>
-                <li>1 trozo pequeño de raíz de loto</li>
-                <li>6-8 guisantes</li>
-                <li>1/2 brote de bambú pequeño y hervido</li>
-                <li>1 zanahoria pequeña (o 1/2 mediano)</li>
-                <li>1 bloque de konnyaku</li>
-                <li>3 hongos shiitake secos</li>
-                <li>3 cucharadas de salsa de soja</li>
-                <li>2 cucharadas de mirin</li>
-                <li>2 cucharadas de azúcar</li>
-                <li> 1/4 cucharadita de dashi en polvo</li>
-                <li>1/2 taza de agua</li>
-            </ul>
-            <h3>Instrucciones</h3>
-            <ol>
-                <li> Reconstituya rápidamente el shiitake combinándolo con agua y un poco de azúcar. Cubra y cocine en el microondas durante unos 3 minutos. </li>
-                <li>Prepare los guisantes arrancando los extremos y el hilo duro que corre a lo largo de sus lados. Hierva rápidamente en agua salada durante solo 30 segundos. Escurrir y reservar.</li>
-                <li>A continuación, pele y corte la raíz de loto y colóquela en agua para evitar que se decolore.</li>
-                <li>Cortar los brotes de bambú.</li>
-                <li>Pelar y cortar las zanahorias en trozos pequeños.</li>
-                <li>Cortar el konnyaku y hacerle un corte en el centro. Pasa un extremo del konnyaku por el centro y tira para hacer un nudo. </li>
-                <li>Escurrir y cortar el shiitake en mitades. Corta el pollo en trozos pequeños. </li>
-                <li>Saque las raíces de loto del agua y déjelas a un lado.</li>
-                <li>Pon un poco de aceite en una cacerola grande y sofríe el pollo hasta que cambie de color.</li>
-                <li>Luego agregue el resto de los ingredientes excepto los guisantes. Cocine por 1 minuto.</li>
-                <li>Agrega el líquido reservado del shiitake. Cocine a fuego medio durante 3 minutos.</li>
-                <li>Agrega el dashi en polvo, el azúcar, el mirin y la salsa de soja. Cubra con papel de aluminio y cocine tapado durante 15-20 minutos, mezclando rápidamente a la mitad. Adorne con los guisantes. </li>
-            </ol>
-        </div>
+        <div class="receta">
+            <img src="./img/Recetas/nimono.jpg" alt="nimono" id="img-recetas-right">
+            <div class="descripcion-receta-right">
+                <h2 id="titulo-receta">Nimono</h2>
+                <h3 id="titulo-pelicula">El castillo en el cielo</h3>
+                <p id="resumen-receta">
+                    El Nimono es un guiso japonés con ingredientes frescos cocidos en un caldo aromático, conocido por su sencillez y delicados sabores que reflejan la esencia de la cocina japonesa.
+                </p>
 
-        <!--Receta 6-->
-        <div id="recipe">
-            <button id="boton-desplegar">
-                <img src="./img/Recetas/kasutera.png" class="imagen-boton">
-                <h1 id="font-titulo-receta">Kasutera</h1>
-                <h2 id="font-pelicula">El viaje de chihiro</h2>
-            </button>
+                <a href="">
+                    <button class="button-right">
+                        Leer más
+                    </button>
+                </a>
+            </div>
         </div>
-        <!--Contenido desplegable-->
-        <div class="contenido-desplegable">
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus rerum aperiam saepe nostrum perspiciatis eum rem, quasi hic mollitia non ipsum sunt dolor eveniet expedita commodi quibusdam provident, voluptas delectus?</p>
+        <!--Receta 6-->
+        <div class="receta">
+            
+            <div class="descripcion-receta-left">
+                <h2 id="titulo-receta">Kasutera</h2>
+                <h3 id="titulo-pelicula">El viaje de Chihiro</h3>
+                <p id="resumen-receta">
+                    El Kasutera es un pastel japonés de origen portugués, también conocido como Castella.
+                </p>
+
+                <a href="">
+                    <button class="button-left">
+                        Leer más
+                    </button>
+                </a>
+            </div>
+            <img src="./img/Recetas/kasutera.png" alt="Kasutera" id="img-recetas-left">
         </div>
         <!--Receta 7-->
-        <div id="recipe">
-            <button id="boton-desplegar">
-                <img src="./img/Recetas/okayu.png" class="imagen-boton">
-                <h1 id="font-titulo-receta">Okayu</h1>
-                <h2 id="font-pelicula">La princesa mononoke</h2>
-            </button>
+        <div class="receta">
+            <img src="./img/Recetas/okayu.png" alt="Okayu" id="img-recetas-right">
+            <div class="descripcion-receta-right">
+                <h2 id="titulo-receta">Okayu</h2>
+                <h3 id="titulo-pelicula">La princesa Mononoke</h3>
+                <p id="resumen-receta">
+                    El Okayu es un plato tradicional japonés consumido para el desayuno o durante enfermedades, conocido por su suavidad y facilidad de digestión. 
+                </p>
+
+                <a href="">
+                    <button class="button-right">
+                        Leer más
+                    </button>
+                </a>
+            </div>
         </div>
-        <!--Contenido desplegable-->
-        <div class="contenido-desplegable">
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus rerum aperiam saepe nostrum perspiciatis eum rem, quasi hic mollitia non ipsum sunt dolor eveniet expedita commodi quibusdam provident, voluptas delectus?</p>
-        </div>
-
-
-
-
-
     </main>
     <script src="js/navigation.js"></script>
     <script src="./js/recipes.js"></script>

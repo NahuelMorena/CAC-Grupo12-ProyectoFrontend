@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Studio Ghibli webside</title>
+    <link rel="icon" href="img/icono.ico" type="image/png">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/nav-style.css">
+    <link rel="stylesheet" href="css/formGame-style.css">
+</head>
+<body>
+    
+    <!---navbar-->
+    <div id="navbarContainer"></div>
+
+    <main> 
+        <h1 id="titulo-1">Demuestra tu sabiduría Ghibli</h1>
+        <p id="subtitulo">
+            ¡Sumérgete en un mundo de preguntas y respuestas sobre tus películas favoritas de Studio Ghibli!
+        </p>
+        <div id="div-form">
+            <section id="formContainer">
+                <h1>Formulario</h1>
+                <form>
+                    <div>
+                        <label for="txtName">Nombre</label>
+                        <input id="txtName" type="text" placeholder="Ingrese un nombre..." required>
+                    </div>
+                    <div>
+                        <label for="txtSurname">Apellido</label>
+                        <input id="txtSurname" type="text" placeholder="Ingrese un apellido..." required>    
+                    </div>
+                    <div>
+                        <label for="dateYear">Edad</label>
+                        <input id="dateYear" type="date" placeholder="Ingrese una edad..." required>
+                    </div>
+                    <h2>Preguntas</h2>
+                    <div>
+                        <label for="firstMovie">¿Cual fue la primera pelicula realizada por la empresa?</label>
+                        <select id="firstMovie">
+                            <option value="option1">Option 1</option>
+                            <option value="option2">Option 2</option>
+                            <option value="option3">Option 3</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="logoCharacter">¿Cual es el nombre del personaje usado como logo del sitio?</label>
+                        <select id="logoCharacter">
+                            <option value="option1">Option 1</option>
+                            <option value="option2">Option 2</option>
+                            <option value="option3">Option 3</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label>Seleccione a los personajes de la empresa</label>
+                        <div class="checkbox-container">
+                            <label for="character1">Character1:</label>
+                            <input id="character1" type="checkbox" name="character" value="character1">
+                            <label for="character2">Character2:</label>
+                            <input id="character2" type="checkbox" name="character" value="character2">
+                            <label for="character3">Character3:</label>
+                            <input id="character3" type="checkbox" name="character" value="character3">
+                            <label for="character4">Character4:</label>
+                            <input id="character4" type="checkbox" name="character" value="character4">
+                        </div>
+                    </div>
+                    <div>
+                        <label>Seleccione la receta de la empresa:</label>
+                        <div class="checkbox-container">
+                            <label for="bento">bento</label><br>
+                            <input type="radio" id="bento" name="recipe" value="bento">
+                            <label for="tacos">tacos</label><br>
+                            <input type="radio" id="tacos" name="recipe" value="tacos">
+                            <label for="hamburguesas">hamburguesas</label><br>
+                            <input type="radio" id="hamburguesas" name="recipe" value="hamburguesas">
+                            <label for="onigiri">onigiri</label><br>
+                            <input type="radio" id="onigiri" name="recipe" value="onigiri">
+                        </div>
+                    </div>
+                    <div id="imageUploadContainer">
+                        <label>Cargue una imagen:</label>
+                        <label for="imageUpload" id="uploadLabel"><br>Buscar una imagen</label>
+                        <input type="file" id="imageUpload" name="imageUpload" accept="image/jpeg" onchange="displayFileName()">
+                    </div>
+                    <div id="submitButton">
+                        <input class="btn" type="submit" value="Enviar resultados">
+                    </div>
+                </form>
+            </section>
+        </div>  
+    </main>
+    <script src="js/navigation.js"></script>
+    <script src="js/formGame.js"></script>
+</body>
+</html>

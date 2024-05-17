@@ -1,0 +1,135 @@
+#titulo-1 {
+    font-family: 'Montserrat', sans-serif;
+    color: #31241E;
+    font-style: italic;
+    text-align: center;
+    margin-top: 70px;
+}
+
+#subtitulo {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 18px;
+    
+}
+
+#div-form {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+@media only screen and (max-width: 805px) {
+    form {
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    form {
+        grid-template-columns: 1fr;
+    }
+}
+
+form > h2 {
+    grid-column: 1 / -1;
+}
+
+h1, h2 {
+    color: #333;
+    width: 100%;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #666;
+}
+
+input[type="text"],
+input[type="date"],
+select, textarea {
+    width: calc(100% - 10px);
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+select {
+    width: 100%;
+}
+
+textarea {
+    height: 100px;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+input[type="radio"] {
+    margin-right: 10px;
+}
+
+#imageUploadContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+#imageUpload {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+label[for="imageUpload"] {
+    height: 80px;
+    display: block;
+    padding: 10px;
+    background-color: #d4d0d0;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+label[for="imageUpload"]:hover {
+    background-color: #c0bcbc;
+}
+
+#submitButton {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+div.checkbox-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.checkbox-container label {
+    flex: 0 0 60%;
+}

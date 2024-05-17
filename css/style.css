@@ -1,17 +1,17 @@
 /*
 Estilos globales para todo el sitio webs.
 */
+* {
+    font-family: 'Montserrat', sans-serif;
+}
 header{
     text-align: left;
     color: #31241E;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    
 }
 
 body {
     background-color: #f3ebeb;
     margin-top: 80px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .btn {
@@ -20,7 +20,7 @@ body {
     border-radius: 20px; /* Bordeado circular */
     padding: 10px 20px; /* Espacio interno del botón */
     border: none; /* Elimina el borde */
-    background-color: #b5b7b9; /* Color de fondo del botón */
+    background-color: #484a4b; /* Color de fondo del botón */
     color: #fff; /* Color del texto */
 }
 
@@ -29,7 +29,7 @@ body {
 }
 
 .btn:active {
-    background-color: #3d3e3f; /* Cambia el color de fondo cuando se hace clic en el botón */
+    background-color: #606263; /* Cambia el color de fondo cuando se hace clic en el botón */
 }
 
 .titulo-paginas{
