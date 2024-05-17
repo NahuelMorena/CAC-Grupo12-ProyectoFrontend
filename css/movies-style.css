@@ -44,6 +44,7 @@ body {
 .btn-expandir {
     border: none;
     cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
 }
 
 @media (max-width: 600px) {
