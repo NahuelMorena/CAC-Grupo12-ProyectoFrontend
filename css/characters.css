@@ -7,10 +7,6 @@ body{
 
 
 @media (max-width: 600px) {
-   
-    .imagen-personaje{
-        max-width: 50%;
-    }
     .contenido{
         max-width: 99%;
         margin-left: 2px;
@@ -18,11 +14,3 @@ body{
     }
 }
 
-.personaje{
-    text-align: center;
-}
-
-.card .cover img{
-    width: 300px;
-    height: auto;
-}

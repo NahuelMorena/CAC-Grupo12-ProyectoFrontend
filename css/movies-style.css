@@ -4,6 +4,7 @@
 }
 body{
     background-color: #b8d5ba;
+    padding-bottom: 50px;
 }
 
 .contenido{
@@ -18,8 +19,8 @@ body{
 }
 
 .imagen-secction{
-    height: 300px;
-    width: 400px;
+    width: 800px;
+    height: auto;
 }
 .contenedor-imagen, .contenedor-boton {
     text-align: center;
@@ -39,3 +40,15 @@ body{
     display: block;
 }
 
+.btn-expandir{
+    border: none;
+    cursor: pointer;
+}
+
+
+@media (max-width: 600px) {
+    .imagen-secction{
+        max-width: 100%;
+        height: auto;
+    }
+}
