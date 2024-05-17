@@ -7,10 +7,6 @@ body{
 
 
 @media (max-width: 600px) {
-   
-    .imagen-personaje{
-        max-width: 50%;
-    }
     .contenido{
         max-width: 99%;
         margin-left: 2px;
@@ -18,15 +14,3 @@ body{
     }
 }
 
-.personaje{
-    text-align: center;
-}
-.imagen-personaje{
-    display: block;
-    margin: 0 auto;
-}
-.btn-expandir{
-    background-color: #b8d5ba;
-    border:none;
-    outline: none;
-}
