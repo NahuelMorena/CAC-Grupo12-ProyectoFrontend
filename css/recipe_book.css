@@ -9,86 +9,95 @@ body {
     margin: 0;
     padding: 0;
 }
-/* TITULOS*/
+/* TITULOS PAGINA*/
 #titulo-1 {
     font-family: 'Montserrat', sans-serif;
     color: #31241E;
     font-style: italic;
     text-align: center;
     margin-top: 70px;
+    font-size: 30px;
 }
 
 #subtitulo {
     font-family: 'Montserrat', sans-serif;
     text-align: center;
-    font-size: 18px;
+    font-size: 15px;
     
 }
-/*RECETAS GENERAL*/
-.receta {
+
+/*GENERAL*/
+.flex-container {
     display: flex;
-    
+    flex-direction: column;
 }
+
+#img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
 #titulo-receta {
-    margin-top: 80px;
-    font-size: 35px;
+    font-size: 30px;
     font-family: 'Montserrat', sans-serif;
     color: #31241E;
 }
+
 #titulo-pelicula {
     font-family: 'Montserrat', sans-serif;
     font-size: 18px;
-    
+
 }
+
 #resumen-receta {
     font-family: 'Poppins';
     font-size: 15px;
     color: #31241E;
 }
-/*RECETAS DERECHA*/
-#img-recetas-right{
-    margin-top: 50px;
-    margin-left: 150px;
-    height: 250px;
-    width: 500px;
-    object-fit: cover;;
-    border-radius: 12px;
-}
-.descripcion-receta-right {
-    margin-left: 80px;  
-    margin-right: 100px;
-}
-.button-right {
-    background-color: #31241E;
-    color: white;
-    font-size: 20px;
-    font-family: 'Montserrat', sans-serif;
-    border-radius: 20px;
-    padding: 10px;
-    font-weight: bold;
-    margin-left: 600px;
-}
-/*RECETAS IZQUIERDA*/
-.descripcion-receta-left {
-    margin-left: 150px;
-    width: 800px;
-}
-#img-recetas-left {
-    margin-top: 50px;
-    margin-right: 80px;
-    height: 250px;
-    width: 500px;
-    object-fit: cover;
-    border-radius: 12px;
-}
-.button-left {
-    background-color: #31241E;
-    color: white;
-    font-size: 20px;
-    font-family: 'Montserrat', sans-serif;
-    border-radius: 20px;
-    padding: 10px;
-    font-weight: bold;
-    margin-left: 600px;
+
+/*CONTENEDORES TIPO A*/
+.contenedor_a {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    margin-top: 20px;
 }
 
+.subcontenedor_a1 {
+    width: 350px;
+    height: 200px;
+    overflow: hidden;
+}
+
+.subcontenedor_a2 {
+    margin-left: 20px;
+    width: 600px;
+}
+
+#button {
+    background-color: #31241E;
+    color: white;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 20px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+/*CONTENEDORES TIPO B*/
+.contenedor_b {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.subcontenedor_b1 {
+    margin-right: 20px;
+    width: 500px;
+}
+.subcontenedor_b2 {
+    width: 350px;
+    height: 200px;
+    overflow: hidden;
+}
