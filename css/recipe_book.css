@@ -9,8 +9,9 @@ body {
     margin: 0;
     padding: 0;
 }
+
 /* TITULOS PAGINA*/
-#titulo-1 {
+#titulo {
     font-family: 'Montserrat', sans-serif;
     color: #31241E;
     font-style: italic;
@@ -23,7 +24,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     text-align: center;
     font-size: 15px;
-    
+
 }
 
 /*GENERAL*/
@@ -61,7 +62,7 @@ body {
 .contenedor_a {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center; 
+    justify-content: center;
     margin-top: 20px;
 }
 
@@ -73,7 +74,7 @@ body {
 
 .subcontenedor_a2 {
     margin-left: 20px;
-    width: 600px;
+    width: 500px;
 }
 
 #button {
@@ -91,20 +92,27 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin-top: 20px;
 }
+
 .subcontenedor_b1 {
     margin-right: 20px;
     width: 500px;
 }
+
 .subcontenedor_b2 {
     width: 350px;
     height: 200px;
     overflow: hidden;
 }
+
 /*Responsive*/
 @media (max-width: 800px) {
+ 
   .contenedor_a {
     flex-direction: column-reverse;
     align-items: center;
   }
+ 
+ 
 }
