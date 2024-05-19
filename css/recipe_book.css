@@ -147,9 +147,8 @@ body {
     overflow: hidden;
 }
 
-/* Extra Small devices (600px and down)*/
+/* Movil (600px and down)*/
 @media (max-width: 600px) {
-
 
    .button_general {
         width: 65%;
@@ -191,4 +190,49 @@ body {
         width: 65%;
     }
 
+}
+
+
+
+/*Tablets (600px hasta 1050px)*/
+@media (min-width: 600px) and (max-width: 1050px) {
+    .button_general {
+        width: 50%;
+    }
+
+    .contenedor_a {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .contenedor_b {
+        flex-direction: column-reverse;
+        align-items: flex-start;
+    }
+    .subcontenedor_a1, .subcontenedor_b2 {
+        width: 50vw;
+    }
+    
+    .subcontenedor_a2, .subcontenedor_b1 {
+        width: 100%;
+    }
+
+    .titulo-receta {
+        font-size: 1vw;
+    }
+
+    .titulo-pelicula {
+        font-size: 0.6vw;
+    }
+
+    .resumen-receta {
+        font-size: 0.4vw;
+    }
+
+    .button {
+        font-size: 2vw;
+    }
+    .button_general:hover {
+        width: 50%;
+    }
 }
