@@ -9,14 +9,39 @@ body {
     margin: 0;
     padding: 0;
 }
+/*CARRUSEL*/
 
+.carrusel {
+    width: 1000px;
+    height: 500px;
+    margin: 10px auto 0;
+    overflow: hidden;
+    object-fit: cover;
+    
+}
+.carrusel ul {
+    display: flex;
+    padding: 0;
+    width: 300%;
+    animation: slide 20s infinite alternate ease-in-out;
+    
+}
+.carrusel li {
+    width: 100%;
+    list-style: none;
+    position: relative;
+
+}
+.carrusel img {
+    width: 100%;
+}
 /* TITULOS PAGINA*/
 #titulo {
     font-family: 'Montserrat', sans-serif;
     color: #31241E;
     font-style: italic;
     text-align: center;
-    margin-top: 70px;
+    margin-top: 20px;
     font-size: 30px;
 }
 
@@ -24,7 +49,9 @@ body {
     font-family: 'Montserrat', sans-serif;
     text-align: center;
     font-size: 15px;
-
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
 }
 
 /*GENERAL*/
@@ -146,32 +173,7 @@ body {
     height: 200px;
     overflow: hidden;
 }
-/*CARRUSEL*/
 
-.carrusel {
-    width: 1000px;
-    height: 500px;
-    margin: 10px auto 0;
-    overflow: hidden;
-    object-fit: cover;
-    
-}
-.carrusel ul {
-    display: flex;
-    padding: 0;
-    width: 300%;
-    animation: slide 20s infinite alternate ease-in-out;
-    
-}
-.carrusel li {
-    width: 100%;
-    list-style: none;
-    position: relative;
-
-}
-.carrusel img {
-    width: 100%;
-}
 @keyframes slide {
     0% { margin-left: 0; }
     33.3333% { margin-left: 0; }
@@ -180,6 +182,15 @@ body {
 }
 /* Movil (600px and down)*/
 @media (max-width: 600px) {
+    #titulo {
+        margin: 0 auto;
+        width: 95%;
+    } 
+    
+    #subtitulo {
+        margin: 0 auto;
+        width: 80%;
+    }
 
     .carrusel {
         width: 80%;
@@ -231,6 +242,14 @@ body {
 
 /*Tablets (600px hasta 1050px)*/
 @media (min-width: 600px) and (max-width: 1050px) {
+    #titulo {
+        margin: 0 auto;
+        width: 90%;
+    } 
+    #subtitulo {
+        margin: 0 auto;
+        width: 80%;
+    }
     .carrusel {
         width: 80%;
         height: 80%;
