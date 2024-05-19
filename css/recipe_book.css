@@ -49,6 +49,7 @@ body {
 #titulo-pelicula {
     font-family: 'Montserrat', sans-serif;
     font-size: 18px;
+    color: #31241E;
 
 }
 
@@ -57,6 +58,54 @@ body {
     font-size: 15px;
     color: #31241E;
 }
+
+.button {
+    background-color: #31241E;
+    color: white;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 20px;
+    padding: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: #5c5450;
+
+}
+
+.button_general {
+    width: 900px;
+    margin: 0 auto;
+    margin-top: 40px;
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #7bbe92;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+
+}
+
+.button_general:hover {
+    width: 900px;
+    background-color: #6aa47e;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+
+}
+
+.button_link {
+    text-decoration: none;
+}
+
 
 /*CONTENEDORES TIPO A*/
 .contenedor_a {
@@ -77,15 +126,7 @@ body {
     width: 500px;
 }
 
-#button {
-    background-color: #31241E;
-    color: white;
-    font-size: 12px;
-    font-family: 'Montserrat', sans-serif;
-    border-radius: 20px;
-    padding: 10px;
-    font-weight: bold;
-}
+
 
 /*CONTENEDORES TIPO B*/
 .contenedor_b {
@@ -106,13 +147,11 @@ body {
     overflow: hidden;
 }
 
-/*Responsive*/
-@media (max-width: 800px) {
- 
-  .contenedor_a {
-    flex-direction: column-reverse;
-    align-items: center;
-  }
- 
- 
+/* Extra Small devices (600px and down)*/
+@media (max-width: 600px) {
+    
+    .contenedor_a {
+        flex-direction: column;
+    }
+
 }
