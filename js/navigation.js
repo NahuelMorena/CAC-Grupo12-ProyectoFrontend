@@ -2,6 +2,7 @@
 document.addEventListener("DOMContentLoaded", function() {
     const navbarContainer = document.getElementById("navbarContainer");
     const currentPage = window.location.pathname.split("/").pop(); // Obtener el nombre del archivo actual
+    console.log('Current Page:', currentPage);
 
     // Fetch the navbar content
     fetch("navbar.html")
@@ -9,6 +10,7 @@ document.addEventListener("DOMContentLoaded", function() {
         .then(html => {
             // Set the fetched HTML as the content of the navbar container
             navbarContainer.innerHTML = html;
+            console.log('Navbar Container HTML:', navbarContainer.innerHTML);
 
             const menuItems = navbarContainer.querySelectorAll('.nav-menu-item');
 
