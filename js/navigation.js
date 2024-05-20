@@ -4,9 +4,7 @@ document.addEventListener("DOMContentLoaded", function() {
     let currentPage = window.location.pathname.split("/").pop(); // Obtener el nombre del archivo actual
     console.log('Current Page:', currentPage);
 
-    if(!currentPage) {
-        currentPage = "/";
-    }
+    currentPage = '/'+currentPage;
 
     console.log('Current Page:', currentPage);
 
