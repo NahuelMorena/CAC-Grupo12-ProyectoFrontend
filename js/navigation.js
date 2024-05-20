@@ -30,8 +30,8 @@ document.addEventListener("DOMContentLoaded", function() {
                 let pageWithoutExtension = currentPage;
                 if (currentPage.endsWith('.html')) {
                     pageWithoutExtension = currentPage.replace('.html','');
-                    pageWithoutExtension = '/'+pageWithoutExtension;
                 }
+                pageWithoutExtension = '/'+pageWithoutExtension;
 
                 console.log('Comparing:', linkHref, pageWithoutExtension);
 
