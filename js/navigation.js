@@ -1,11 +1,11 @@
 // navigation.js
 document.addEventListener("DOMContentLoaded", function() {
     const navbarContainer = document.getElementById("navbarContainer");
-    const currentPage = window.location.pathname.split("/").pop(); // Obtener el nombre del archivo actual
+    let currentPage = window.location.pathname.split("/").pop(); // Obtener el nombre del archivo actual
     console.log('Current Page:', currentPage);
 
     if(!currentPage) {
-        currentPage = "index.html";
+        currentPage = "/";
     }
 
     console.log('Current Page:', currentPage);
@@ -30,6 +30,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 let pageWithoutExtension = currentPage;
                 if (currentPage.endsWith('.html')) {
                     pageWithoutExtension = currentPage.replace('.html','');
+                    pageWithoutExtension = '/'+pageWithoutExtension;
                 }
 
                 console.log('Comparing:', linkHref, pageWithoutExtension);
