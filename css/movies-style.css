@@ -1,22 +1,24 @@
-body{
+body {
     background-color: #b8d5ba;
+    padding-bottom: 50px;
 }
 
-.contenido{
+.contenido {
     margin-top: 80px;
     padding: 0px;
 }
 
-.parrafo-movie{
+.parrafo-movie {
     font-family: Arial, Helvetica, sans-serif;
     margin-top: 10px;
     text-align: center;
 }
 
-.imagen-secction{
-    height: 300px;
-    width: 400px;
+.imagen-secction {
+    width: 800px;
+    height: auto;
 }
+
 .contenedor-imagen, .contenedor-boton {
     text-align: center;
     margin-top: 50px;
@@ -28,10 +30,26 @@ body{
 }
 
 .expandir-info {
-    display: none;
+    max-height: 0;
+    opacity: 0;
+    overflow: hidden;
+    transition: max-height 300ms ease-out, opacity 300ms ease-out;
 }
 
 .expandir-info.mostrar {
-    display: block;
+    max-height: auto; 
+    opacity: 1;
 }
 
+.btn-expandir {
+    border: none;
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+}
+
+@media (max-width: 600px) {
+    .imagen-secction {
+        max-width: 100%;
+        height: auto;
+    }
+}
