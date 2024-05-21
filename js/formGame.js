@@ -10,6 +10,14 @@ form.addEventListener('submit', function(event){
     const logoCharacter = document.getElementById('logoCharacter').value;
     const image = document.getElementById('imageUpload');
 
+    //Validar que esten respondidas
+    const characterCheckboxes = document.querySelectorAll('input[name="character"]:checked');
+    const recipeRadios = document.querySelectorAll('input[name="recipe"]:checked');
+    if (!name || !surname || !year || !firstMovie || !logoCharacter || characterCheckboxes.length === 0 || recipeRadios.length === 0) {
+        alert("Por favor, complete todos los campos obligatorios.");
+        return;
+    }
+
     const characterSelected = [];
     const checkboxes = document.querySelectorAll('input[name="character"]:checked');
     checkboxes.forEach(checkbox => {
