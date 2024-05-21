@@ -46,6 +46,16 @@ body {
     cursor: pointer;
     -webkit-tap-highlight-color: transparent;
 }
+.contenido-titulo{
+    justify-content: center;
+    background-color: white;
+}
+.color-nombre-movie{
+    font-size: 1.5em; /* Ajusto el tamaño de fuente similar al de h2 */
+    font-weight: bold;
+    display: block; /* Para que se comporte como un bloque similar al h2 */
+    margin: 0.67em 0; /* Ajustar el margen si es necesario */
+}
 
 @media (max-width: 600px) {
     .imagen-secction {
