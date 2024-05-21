@@ -57,6 +57,11 @@ body {
     margin: 0.67em 0; /* Ajustar el margen si es necesario */
 }
 
+.expandir-info ul {
+    list-style-position: inside;
+    padding-left: 20px;
+}
+
 @media (max-width: 600px) {
     .imagen-secction {
         max-width: 100%;
