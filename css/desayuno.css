@@ -6,7 +6,17 @@ body {
     font-family: "Raleway", sans-serif;
     color: #31241E;
     text-align: center;
-    margin-top: 70px;
+}
+
+.flex-container {
+    background-color: #ffffeb;
+    width: 1100px;
+    margin: 0 auto;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
 }
 
 /*Ingredientes*/
@@ -23,7 +33,7 @@ body {
 
 #img {
     margin-left: 190px;
-    width: 25%;
+    width: 30%;
 }
 
 /*Instrucciones*/
@@ -41,7 +51,7 @@ body {
 }
 
 #img2 {
-    width: 25%;
+    width: 30%;
     height: 25%;
     margin-right: 50px;
 }
@@ -65,6 +75,10 @@ body {
         font-size: 80%;
         width: 60%;
     }
+
+    .flex-container {
+        width: 100%;
+    }
 }
 
 /* Movil (600px and down)*/
@@ -81,9 +95,15 @@ body {
     .ingredientes-contenido {
         flex: 1;
         font-size: 80%;
+        margin-left: 10%;
     }
 
     .instrucciones-contenido {
         font-size: 80%;
+        width: 90%;
+    }
+
+    .flex-container {
+        width: 100%;
     }
 }
