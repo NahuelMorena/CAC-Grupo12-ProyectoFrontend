@@ -50,11 +50,19 @@ body {
     justify-content: center;
     background-color: white;
 }
-.color-nombre-movie{
+.titulo-movies{
+    font-family: 'Montserrat', sans-serif;
+    color: #31241E;
+    margin: 100px 0 0 0;
+    font-style: italic;
+    text-align: center;
+}
+.color-toca-expandir{
     font-size: 1.5em; /* Ajusto el tamaño de fuente similar al de h2 */
     font-weight: bold;
     display: block; /* Para que se comporte como un bloque similar al h2 */
     margin: 0.67em 0; /* Ajustar el margen si es necesario */
+    
 }
 
 .expandir-info ul {
