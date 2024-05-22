@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ubicaciones</title>
+     <link rel="shortcut icon" href="./img/icons8-totoro-480.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/nav-style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="./css/ubicaciones.css">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    
+</head>
+<body>
+    <!---navbar-->
+    <div id="navbarContainer"></div>
+    <main>
+        <h1>Ubicaciones del mundo Ghibli</h1>
+         <h2>
+            "Explora los mágicos y encantadores escenarios del mundo Ghibli, donde cada ubicación cuenta una historia única llena de fantasía y maravillas."
+        </h2>
+        <img src="./img/ubicaciones/Portada.gif" alt="vagon_de_tren" id="portada">
+        <div id="app">
+            
+            <div v-if="error===true"> Se produjo un error - Intente mas tarde</div>
+            <div v-else class="d-flex">
+                
+                <div v-for="ubicaciones in datos"  class="tarjeta">
+                    <p><b>Nombre:</b> {{ubicaciones.name}}</p>
+                    <p><b>Película:</b> {{ubicaciones.movie}}</p>
+                    <p><b>Clima:</b> {{ubicaciones.climate}}</p>
+                    <p><b>Terreno:</b> {{ubicaciones.terrain}}</p>
+                    <img :src="ubicaciones.image" :alt="ubicaciones.name">
+                   
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+
+    <script src="js/navigation.js"></script>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script src="./js/ubicaciones.js"></script>
+</body>
+</html>
