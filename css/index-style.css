@@ -66,6 +66,19 @@ body {
         display: none;
     }
 }    
+@media (max-width: 600px) {
+    .image {
+        background-image: url(../img/Studio_Ghibli_logo.svg.png);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: 100% auto; /* Asegura que ocupe todo el ancho y ajusta la altura automáticamente */
+        width: 100%; /* Asegura que el contenedor ocupe todo el ancho */
+        height: 47vh; /* Ajusta la altura a un 80% del viewport height */
+}
+}
+
+
+
 
 @media screen and (max-width: 810px) { 
     .title {
