@@ -1,0 +1,202 @@
+[
+    {
+    "id": "1",
+    "name": "Ciudad del Hierro",
+    "movie": "La Princesa Mononoke",
+    "climate": "Continental",
+    "terrain": "Montaña",
+    "image": "https://i.pinimg.com/originals/b6/51/a7/b651a7fbbdc2241cad7b2701558da064.jpg"
+    },
+    {
+    "id": "2",
+    "name": "Panaderia Gutiokipanja",
+    "movie": "La Princesa Mononoke",
+    "climate": "Continental",
+    "terrain": "Colina",
+    "image": "https://i.pinimg.com/736x/88/bd/10/88bd10cc3e8ad972f2eb4b4449954f69.jpg"
+    },
+    {
+    "id": "3",
+    "name": "El reino de los gatos",
+    "movie": "El regreso del gato",
+    "climate": "Continental",
+    "terrain": "Plano",
+    "image": "https://i.pinimg.com/474x/ea/72/81/ea728162e2f29fc1b282b9d864f560c5.jpg"
+    },
+    {
+    "id": "4",
+    "name": "La casa del pantano",
+    "movie": "El recuerdo de Marnie",
+    "climate": "Templado",
+    "terrain": "Pantano",
+    "image": "https://64.media.tumblr.com/96d51e5cc340b55a78daee2c132e8f87/tumblr_orwp1xCKCJ1qefgdko6_r1_540.jpg"
+    },
+    {
+    "id": "5",
+    "name": "Hospital",
+    "movie": "Mi vecino Totoro",
+    "climate": "Continental",
+    "terrain": "Colina",
+    "image": "https://i.pinimg.com/736x/3c/42/a8/3c42a80b8849bb8478714c74b14c806e.jpg"
+    },
+    {
+    "id": "6",
+    "name": "Gondoa",
+    "movie": "El castillo en el cielo",
+    "climate": "Templado",
+    "terrain": "Isla flotante",
+    "image": "https://64.media.tumblr.com/c99945e2958dae26fc4246d63168344c/tumblr_n22z7guPtp1s5fpnwo1_1280.jpg"
+    },
+    {
+    "id": "7",
+    "name": "La cabaña de troncos de Ursula",
+    "movie": "Kiki: entregas a domicilio",
+    "climate": "Frio",
+    "terrain": "Bosque",
+    "image": "https://i.pinimg.com/736x/88/86/95/8886958581c9774ceb6b4aeec7b79fef.jpg"
+    },
+    {
+    "id": "8",
+    "name": "La cabaña de Zeniba",
+    "movie": "El viaje de Chihiro",
+    "climate": "Variado",
+    "terrain": "Variado",
+    "image": "https://44.media.tumblr.com/0814109fda036757320c0089428e7fde/c9f6c7951b413ad7-61/s540x810_f1/13037411eeb811254e937d2c7c960bca2f144831.gif"
+    },
+    {
+    "id": "9",
+    "name": "Bosque de Bambú",
+    "movie": "El cuento de la princesa Kaguya",
+    "climate": "Tropical",
+    "terrain": "Bosque",
+    "image": "https://media.timeout.com/images/102189327/750/422/image.jpg"
+    },
+    {
+    "id": "10",
+    "name": "Las minas de Pazu",
+    "movie": "El castillo en el cielo",
+    "climate": "Seco",
+    "terrain": "Colina",
+    "image": "https://catsandchocolate.com/wp-content/uploads/2016/09/laputa7.png?w=740"
+    },
+    {
+    "id": "11",
+    "name": "El apartamento de Shizuku",
+    "movie": "Susurros del corazón",
+    "climate": "Continental",
+    "terrain": "Ciudad",
+    "image": "https://i.pinimg.com/originals/56/e4/8d/56e48ddd04613dfe9536bb0272354c16.jpg"
+    },
+    {
+    "id": "12",
+    "name": "Laputa",
+    "movie": "El castillo en el cielo",
+    "climate": "Continental",
+    "terrain": "Ciudad",
+    "image": "https://m.media-amazon.com/images/M/MV5BODc2NWY0NWQtMmE4NS00ZGI0LTk3MzQtODE0NTYyMjVkZDExXkEyXkFqcGdeQXVyNzU1NzE3NTg@._V1_QL75_UX500_CR0,47,500,281_.jpg"
+    },
+    {
+    "id": "13",
+    "name": "Tedis",
+    "movie": "El castillo en el cielo",
+    "climate": "Continental",
+    "terrain": "Colina",
+    "image": "https://images6.fanpop.com/image/photos/43000000/Castle-in-the-Sky-Scenery-studio-ghibli-43016642-1280-705.jpg"
+    },
+    {
+    "id": "14",
+    "name": "Koriko",
+    "movie": "Kiki: entregas a domicilio",
+    "climate": "Templado",
+    "terrain": "Colina",
+    "image": "https://i.pinimg.com/originals/72/45/1e/72451e35a2af8a1d090e23881f7f69a2.jpg"
+    },
+    {
+    "id": "15",
+    "name": "Bosque",
+    "movie": "La Princesa Mononoke",
+    "climate": "Tropical",
+    "terrain": "Bosque",
+    "image": "https://3.bp.blogspot.com/-2LU9ltqMLM8/WpWowEff6jI/AAAAAAAA9UE/avJXRWaeQ-4eA9NDc0pWOzk4VEfQphCIgCK4BGAYYCw/s1600/Princess%2BMononoke%2B-%2BPrincess%2BMononoke%2BForest-703511.png"
+    },
+    {
+    "id": "16",
+    "name": "Baños Públicos",
+    "movie": "El viaje de Chihiro",
+    "climate": "Continental",
+    "terrain": "Río",
+    "image": "https://i.pinimg.com/1200x/03/45/fa/0345fa0fd7ac1e3716c520c874e4136b.jpg"
+    },
+    {
+    "id": "17",
+    "name": "Matsugo",
+    "movie": "Mi vecino Totoro",
+    "climate": "Continental",
+    "terrain": "Río",
+    "image": "https://pm1.aminoapps.com/6892/5321f622326c6c941818e83b47e8d9fd1c4a874er1-736-932v2_hq.jpg"
+    },
+    {
+    "id": "18",
+    "name": "La casa de Taeko",
+    "movie": "Recuerdos del ayer",
+    "climate": "Continental",
+    "terrain": "Río",
+    "image": "https://m.media-amazon.com/images/M/MV5BNzViN2RmNmUtNzc2NS00NDBiLWExOTQtNTMxZTYyY2QyNGMxXkEyXkFqcGdeQXVyOTc5MDI5NjE@._V1_.jpg"
+    },
+    {
+    "id": "19",
+    "name": "Piccolo S.P.A.",
+    "movie": "Porco Rosso",
+    "climate": "Continental",
+    "terrain": "Río",
+    "image": "https://dulaccinemas.com/sites/default/files/styles/vignette_fiche_film/public/film/photos/2022/36-GN62G.jpg?itok=SvC8QX0w"
+    },
+    {
+    "id": "20",
+    "name": "Karikiya",
+    "movie": "Kiki: entregas a domicilio",
+    "climate": "Templado",
+    "terrain": "Ciudad",
+    "image": "https://i.pinimg.com/736x/0d/e8/4b/0de84b74e5a412559383ceb08583017b.jpg"
+    },
+    {
+    "id": "21",
+    "name": "La escuela de Satsuki",
+    "movie": "Mi vecino Totoro",
+    "climate": "Templado",
+    "terrain": "Río",
+    "image": "https://cdn.dribbble.com/userupload/7379636/file/original-b4b8833a3eb96d97330faba3d3e3760f.jpeg?resize=1200x838"
+    },
+    {
+    "id": "22",
+    "name": "El puerto submarino de Fujimoto",
+    "movie": "Ponyo",
+    "climate": "Húmedo",
+    "terrain": "Oceano",
+    "image": "https://m.media-amazon.com/images/M/MV5BZTg1MjNmODQtNzNhZS00YTY3LTk5MGYtZDExMThjZDNlNGFjXkEyXkFqcGdeQXVyOTc5MDI5NjE@._V1_.jpg"
+    },
+    {
+    "id": "23",
+    "name": "Guardería Himawari",
+    "movie": "Ponyo",
+    "climate": "Templado",
+    "terrain": "Oceano",
+    "image": "https://i.pinimg.com/originals/47/9a/11/479a11430550c90cd3ba8c97b5ed6cb1.jpg"
+    },
+    {
+    "id": "24",
+    "name": "Ingary",
+    "movie": "El increíble castillo vagabundo",
+    "climate": "Templado",
+    "terrain": "Colina",
+    "image": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/e14385d9-4897-426c-90b1-88466ef30bda/d84kyop-b2f40407-820e-497c-b920-b93dc7269deb.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2UxNDM4NWQ5LTQ4OTctNDI2Yy05MGIxLTg4NDY2ZWYzMGJkYVwvZDg0a3lvcC1iMmY0MDQwNy04MjBlLTQ5N2MtYjkyMC1iOTNkYzcyNjlkZWIuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.O6dpbIAsnCGGtWwp3gWjZwKm1eTjaoivVQ9ByqtVgNM"
+    },
+    {
+    "id": "25",
+    "name": "Hogar para Niños San Morwald",
+    "movie": "Earwig y la bruja",
+    "climate": "Templado",
+    "terrain": "Ciudad",
+    "image": "https://www.vertigofilms.es/wp-content/uploads/2020/11/c0228_t2.0006.jpg"
+    }
+    ]
