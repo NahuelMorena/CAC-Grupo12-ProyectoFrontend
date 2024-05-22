@@ -9,6 +9,13 @@ h1 {
     text-align: center;
     font-size: 30px;
 }
+h2 {
+    text-align: center;
+    font-family: 'Poppins';
+    font-size: 17px;
+    color: #31241E;
+    font-weight: 200;
+}
 .d-flex {
     display: flex;
     flex-wrap: wrap;
