@@ -16,6 +16,15 @@ h2 {
     color: #31241E;
     font-weight: 200;
 }
+#portada {
+    width: 100%;
+    max-height: 500px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 10px;
+    box-shadow: 2px 4px 8px #31241E; 
+    margin-bottom: 10px;
+}
 .d-flex {
     display: flex;
     flex-wrap: wrap;
@@ -30,7 +39,7 @@ h2 {
     background-color: #88c38c;
     font-size: 15px;
     font-family: 'Poppins';
-    
+    box-shadow: 2px 4px 8px #31241E; 
 }
 .tarjeta > img {
     width: 100%;
