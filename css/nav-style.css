@@ -34,7 +34,6 @@
 }
 
 .nav-menu {
-    position: absolute;
     display: flex;
     list-style: none;
     padding: 0;
@@ -68,13 +67,7 @@
     display: none;
 }
 
-@media screen and (max-width: 980px){
-    .nav-menu {
-        left: 45%;
-    }
-}
-
-@media screen and (max-width: 883px) {
+@media screen and (max-width: 970px) {
 
     .nav-menu {
         display: none; 
