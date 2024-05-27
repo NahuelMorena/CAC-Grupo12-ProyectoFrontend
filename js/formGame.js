@@ -3,18 +3,34 @@ const form = document.querySelector('form');
 form.addEventListener('submit', function(event){
     event.preventDefault();
 
-    const name = document.getElementById('txtName').value;
-    const surname = document.getElementById('txtSurname').value;
-    const year = document.getElementById('dateYear').value;
-    const firstMovie = document.getElementById('firstMovie').value;
-    const logoCharacter = document.getElementById('logoCharacter').value;
-    const image = document.getElementById('imageUpload');
+    const fields = [
+        { name: 'Nombre', id: 'txtName', variable: 'name' },
+        { name: 'Apellido', id: 'txtSurname', variable: 'surname' },
+        { name: 'Edad', id: 'dateYear', variable: 'year' },
+        { name: 'Primera película', id: 'firstMovie', variable: 'firstMovie' },
+        { name: 'Personaje del Logo', id: 'logoCharacter', variable: 'logoCharacter'}
+    ];
 
-    //Validar que esten respondidas
+    let firstEmptyField = null;
+    const formData = {};
+
+    for (const field of fields) {
+        const value = document.getElementById(field.id).value;
+        formData[field.variable] = value;
+        if (!value) {
+            firstEmptyField = field.name;
+            break;
+        }
+    }
+
     const characterCheckboxes = document.querySelectorAll('input[name="character"]:checked');
     const recipeRadios = document.querySelectorAll('input[name="recipe"]:checked');
-    if (!name || !surname || !year || !firstMovie || !logoCharacter || characterCheckboxes.length === 0 || recipeRadios.length === 0) {
-        alert("Por favor, complete todos los campos obligatorios.");
+    if (!firstEmptyField && (characterCheckboxes.length === 0 || recipeRadios.length === 0)) {
+        firstEmptyField = (characterCheckboxes.length === 0) ? 'Personajes' : 'Recetas';
+    }
+
+    if (firstEmptyField) {
+        alert(`Por favor, complete el campo ${firstEmptyField}.`);
         return;
     }
 
@@ -32,13 +48,14 @@ form.addEventListener('submit', function(event){
         }
     })
 
+    const image = document.getElementById('imageUpload');
     let img = '';
     if (image.files.length > 0) {
         const file = image.files[0];
         img = file.name;
     }
 
-    alert(`Nombre: ${name}\nApellido: ${surname}\nEdad: ${year}\nPrimera película: ${firstMovie}\nPersonaje logo: ${logoCharacter}\nPersonajes seleccionados: ${characterSelected.join(', ')}\nReceta seleccionada: ${repiceSelected}\nImagen seleccionada: ${img}`)
+    alert(`Nombre: ${formData.name}\nApellido: ${formData.surname}\nEdad: ${formData.year}\nPrimera película: ${formData.firstMovie}\nPersonaje logo: ${formData.logoCharacter}\nPersonajes seleccionados: ${characterSelected.join(', ')}\nReceta seleccionada: ${repiceSelected}\nImagen seleccionada: ${img}`)
 
 })
 
