@@ -246,22 +246,22 @@ h3 {
     }
 
     .receta {
-        width: 65%;
+        width: 70%;
     }
 
     .contenedor_a {
         flex-direction: column;
-        align-items: flex-start;
+        align-items: center;
     }
 
     .contenedor_b {
         flex-direction: column-reverse;
-        align-items: flex-start;
+       align-items: center;
     }
 
     .subcontenedor_a1,
     .subcontenedor_b2 {
-        width: 60vw;
+        width: 80%;
     }
 
     .subcontenedor_a2,
@@ -270,28 +270,28 @@ h3 {
     }
 
     h2 {
-        font-size: 5vw;
+        font-size: 90%;
     }
 
     h3 {
-        font-size: 3vw;
+        font-size: 70%;
     }
 
     .resumen-receta {
-        font-size: 2vw;
+        font-size: 50%;
     }
 
     .receta:hover {
-        width: 65%;
+        width: 70%;
     }
     .button_a {
         align-self: self-end;
-        font-size: 2vw;
+        font-size: 40%;
         
     }
     .button_b {
         align-self: self-end;
-        font-size: 2vw;
+        font-size: 40%;
     }
 }
 
@@ -314,43 +314,41 @@ h3 {
     }
 
     .receta {
-        width: 50%;
+        width: 70%;
     }
 
     .contenedor_a {
-        flex-direction: column;
-        align-items: flex-start;
+        flex-direction: row;
     }
 
     .contenedor_b {
-        flex-direction: column-reverse;
-        align-items: flex-start;
+        flex-direction: row;
     }
 
     .subcontenedor_a1,
     .subcontenedor_b2 {
-        width: 50vw;
+        width: 50%;
     }
 
     .subcontenedor_a2,
     .subcontenedor_b1 {
-        width: 100%;
+        width: 40%;
     }
 
     h2 {
-        font-size: 5vw;
+        font-size: 95%;
     }
 
     h3 {
-        font-size: 3vw;
+        font-size: 80%;
     }
 
     .resumen-receta {
-        font-size: 2vw;
+        font-size: 60%;
     }
 
     .receta:hover {
-        width: 50%;
+        width: 70%;
     }
 
     .button_b {
