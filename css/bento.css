@@ -9,7 +9,7 @@ body {
 }
 
 .flex-container {
-    background-color: #ffffeb;
+    background-color: #88c38c;
     width: 1100px;
     margin: 0 auto;
     border-radius: 12px;
@@ -17,6 +17,8 @@ body {
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
+    box-shadow: 2px 4px 8px #31241E; 
+    border: 1px solid black;
 }
 
 /*Ingredientes*/
